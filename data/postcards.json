@@ -1,0 +1,1666 @@
+[
+  {
+    "id": "001",
+    "year": 2023,
+    "image": "001.jpg",
+    "author": {
+      "original": "Каролина",
+      "ua": "Кароліна",
+      "en": "Karolyna"
+    },
+    "hometown": {
+      "original": "Краматорск",
+      "ua": "Краматорськ",
+      "en": "Kramatorsk (Donetsk Oblast)"
+    },
+    "current_city": {
+      "original": "Краматорск",
+      "ua": "Краматорськ",
+      "en": "Kramatorsk (Donetsk Oblast)"
+    },
+    "tags": [],
+    "text": {
+      "original": "Мне сейчас в городе нравится, когда я смотрю на лепестки роз. Я очень люблю розы. В парке когда мы гуляем, я вижу эти розы. Летом, весной… в жаркие моменты. Я на них и смотрю, и нюхаю.",
+      "ua": "Мені зараз в місті подобається, коли я дивлюсь на пелюстки троянд. Я дуже люблю троянди. У парку коли ми гуляємо, я бачу ці троянди. Літом, весною… коли спекотно. Я на них дивлюсь, і нюхаю.",
+      "en": "I like to look at rose petals in the city now. I love roses very much. In the park when we walk, I see these roses. In summer, spring… when it’s hot outside. I look at them and sniff."
+    }
+  },
+  {
+    "id": "002",
+    "year": 2023,
+    "image": "002.jpg",
+    "author": {
+      "original": "Лера",
+      "ua": "Лера",
+      "en": "Lera"
+    },
+    "hometown": {
+      "original": "Краматорск",
+      "ua": "Краматорськ",
+      "en": "Kramatorsk (Donetsk Oblast)"
+    },
+    "current_city": {
+      "original": "Краматорск",
+      "ua": "Краматорськ",
+      "en": "Kramatorsk (Donetsk Oblast)"
+    },
+    "tags": [],
+    "text": {
+      "original": "Мы когда гуляли с родителями мы забили щёт времени и я увидела очень очень красивый закат. Он мне очень запомнился й по єтому я его нарисовала.",
+      "ua": "Ми коли гуляли з батьками ми забули рахунок часу і я побачила дуже-дуже красивий захід сонця. Він мені дуже сподобався і тому я його намалювала.",
+      "en": "When we were walking with my parents, we`ve lost count of time and I saw a very beautiful sunset. It was very memorable and that’s why I drew it."
+    }
+  },
+  {
+    "id": "003",
+    "year": 2023,
+    "image": "003.jpg",
+    "author": {
+      "original": "Настя",
+      "ua": "Настя",
+      "en": "Nastia"
+    },
+    "hometown": {
+      "original": "Краматорск",
+      "ua": "Краматорськ",
+      "en": "Kramatorsk (Donetsk Oblast)"
+    },
+    "current_city": {
+      "original": "Краматорск",
+      "ua": "Краматорськ",
+      "en": "Kramatorsk (Donetsk Oblast)"
+    },
+    "tags": [],
+    "text": {
+      "original": "Это пшеничное поле, оно находится по пути к аэропорту. Там очень приятный запах скошеных полей. Когда я там была в последний раз, там выгуливали коров, а рядом бегал маленький козлёнок. Если пройти чуть дальше, можно увидеть небольшую лесопосадку, а за ним кукурузное поле.",
+      "ua": "Це пшеничне поле, воно знаходиться на шляху до аеропорту. Там дуже приємний запах скошених полів. Коли я там була останнього разу, там вигулювали корів, а поряд бігало маленьке козеня. Якщо пройти трохи далі, можна побачити невелику лісосмугу, а за нею кукурудзяне поле.",
+      "en": "This is a wheat field, it is on the way to the airport. There is a very pleasant smell of mowed fields. The last time I was there, there were cows walking, and a little goat was running around. If you walk a little further, you can see a small forest belt, and behind it a corn field."
+    }
+  },
+  {
+    "id": "004",
+    "year": 2023,
+    "image": "004.jpg",
+    "author": {
+      "original": "Лера",
+      "ua": "Лера",
+      "en": "Lera"
+    },
+    "hometown": {
+      "original": "Краматорск",
+      "ua": "Краматорськ",
+      "en": "Kramatorsk (Donetsk Oblast)"
+    },
+    "current_city": {
+      "original": "Краматорск",
+      "ua": "Краматорськ",
+      "en": "Kramatorsk (Donetsk Oblast)"
+    },
+    "tags": [],
+    "text": {
+      "original": "Подороге на Оскол я всегда вижу єтот крест он мне очень запомнелся и по єтому я нарисовала его.",
+      "ua": "Дорогою на Оскол я завжди бачу цей хрест він мені дуже запам’ятався і тому я намалювала його.",
+      "en": "On the way to Oskol, I always see this cross, I remember it very well and that’s why I drew it."
+    }
+  },
+  {
+    "id": "005",
+    "year": 2023,
+    "image": "005.jpg",
+    "author": {
+      "original": "Настя",
+      "ua": "Настя",
+      "en": "Nastia"
+    },
+    "hometown": {
+      "original": "Краматорск",
+      "ua": "Краматорськ",
+      "en": "Kramatorsk (Donetsk Oblast)"
+    },
+    "current_city": {
+      "original": "Краматорск",
+      "ua": "Краматорськ",
+      "en": "Kramatorsk (Donetsk Oblast)"
+    },
+    "tags": [],
+    "text": {
+      "original": "В птичьем парке есть не только птицы, но и пару животных. Много птиц не только сидят в клетках, но и бегают по всей площади парка. А так же качеля, скамейка, батут.",
+      "ua": "В пташиному парку є не тільки пташки, але і пара тваринок. Багато пташок не тільки сидять в клітках, але і бігають по всій площі парку. А також гойдалка, лавка, батут.",
+      "en": "In the bird park there are not only birds, but also a couple of animals. Many birds not only sit in cages, but also run around the entire area of the park. And there are also a swing, a bench, a trampoline."
+    }
+  },
+  {
+    "id": "006",
+    "year": 2023,
+    "image": "006.jpg",
+    "author": {
+      "original": "Даніл Кавун",
+      "ua": "Даніл Кавун",
+      "en": "Danil Kavun"
+    },
+    "hometown": {
+      "original": "Дніпро",
+      "ua": null,
+      "en": "Dnipro"
+    },
+    "current_city": {
+      "original": "Краматорськ",
+      "ua": null,
+      "en": "Kramatorsk (Donetsk Oblast)"
+    },
+    "tags": [],
+    "text": {
+      "original": "Я поїхав на сорівнованя і пообіцяв своєй Мамі що я займу 1 місце і поїхало тільки 3 людини і зайняло 1 місце всі 3 людини. Меня друзі і я йих підтримували і підтримка нам дуже допомогла і наш тренер був дуже і дуже радий за нас.",
+      "ua": null,
+      "en": "I went to the competition and promised my mother that I would take 1st place. Only 3 people came there and all 3 people took 1st place. My friends supported me and the support helped us a lot and our coach was very, very happy for us."
+    }
+  },
+  {
+    "id": "007",
+    "year": 2023,
+    "image": "007.jpg",
+    "author": {
+      "original": "Ваня Березняк",
+      "ua": "Ваня Березняк",
+      "en": "Vania Berezniak"
+    },
+    "hometown": {
+      "original": "Краматорск",
+      "ua": "Краматорськ",
+      "en": "Kramatorsk (Donetsk Oblast)"
+    },
+    "current_city": {
+      "original": "Краматорск",
+      "ua": "Краматорськ",
+      "en": "Kramatorsk (Donetsk Oblast)"
+    },
+    "tags": [],
+    "text": {
+      "original": "Раньше когда я был младше очень любил ходить в Дворец школьников (Дом Пионеров) на занятия в 2012–2016 годах. У нас были разные поделки из цветной бумаги, рисование и т. д. Короче говоря было очень интересно. Также с 5 класса я стал интересоваться историей, люблю всё старинное. В данный момент сочиняю музыку и иногда занимаюсь поэзией, веду свой ютуб канал @isb_music_topic.",
+      "ua": "Раніше, коли я був молодше, дуже любив ходити в Палац школярів (Будинок Піонерів) на заняття в 2012-2016 роках. У нас були різні вироби з кольорового паперу, малювання і т.д. Коротше кажучи було дуже цікаво. Також з 5 класу я став цікавитись історією, люблю все старовинне. Зараз пишу музику та іноді займаюсь поезією, веду свій ютуб канал @isb_music_topic.",
+      "en": "Earlier, when I was younger, I used to like to go to the Palace of Schoolchildren (House of Pioneers) for classes in 2012-2016. We made crafts of colored paper, drew pictures etc. In short, it was very interesting. Also, from the 5th grade I became interested in history, I love everything ancient. Now I make music and sometimes do poetry, I run my YouTube channel @isb_music_topic."
+    }
+  },
+  {
+    "id": "008",
+    "year": 2023,
+    "image": "008.jpg",
+    "author": {
+      "original": "Маша М.",
+      "ua": "Маша М.",
+      "en": "Masha M."
+    },
+    "hometown": {
+      "original": "Краматорск",
+      "ua": "Краматорськ",
+      "en": "Kramatorsk (Donetsk Oblast)"
+    },
+    "current_city": {
+      "original": "Краматорск",
+      "ua": "Краматорськ",
+      "en": "Kramatorsk (Donetsk Oblast)"
+    },
+    "tags": [],
+    "text": {
+      "original": "В моём городе есть меловые горы где любят гулять люди и возможно прилетают инопланетяне.",
+      "ua": "У моєму місті є крейдяні гори де люблять гуляти люди і можливо прилітають інопланетяни.",
+      "en": "In my city there are chalk mountains where people like to walk. Maybe aliens will fly there."
+    }
+  },
+  {
+    "id": "009",
+    "year": 2023,
+    "image": "009.jpg",
+    "author": {
+      "original": "Диана",
+      "ua": "Діана",
+      "en": "Dyana"
+    },
+    "hometown": {
+      "original": "Краматорск",
+      "ua": "Краматорськ",
+      "en": "Kramatorsk (Donetsk Oblast)"
+    },
+    "current_city": {
+      "original": "Краматорск",
+      "ua": "Краматорськ",
+      "en": "Kramatorsk (Donetsk Oblast)"
+    },
+    "tags": [],
+    "text": {
+      "original": "Мы играли с собакой его зовут Арчик это моё любимое место возле речки.",
+      "ua": "Ми гралися з собакою його звати Арчік це моє улюблене місце біля річки.",
+      "en": "We played with the dog, his name is Archik, this is my favorite place near the river."
+    }
+  },
+  {
+    "id": "010",
+    "year": 2023,
+    "image": "010.jpg",
+    "author": {
+      "original": "Аня",
+      "ua": "Аня",
+      "en": "Ania"
+    },
+    "hometown": {
+      "original": "Краматорск",
+      "ua": "Краматорськ",
+      "en": "Kramatorsk (Donetsk Oblast)"
+    },
+    "current_city": {
+      "original": "Краматорск",
+      "ua": "Краматорськ",
+      "en": "Kramatorsk (Donetsk Oblast)"
+    },
+    "tags": [],
+    "text": {
+      "original": "Сабуку зовут Адольф Я его боюсь но он охраняет дом.",
+      "ua": "Собаку звати Адольф Я його боюсь але він охороняє дім.",
+      "en": "The dog’s name is Adolf. I’m afraid of him, but he guards the house."
+    }
+  },
+  {
+    "id": "011",
+    "year": 2023,
+    "image": "011.jpg",
+    "author": {
+      "original": "Даніл Кавун",
+      "ua": "Даніл Кавун",
+      "en": "Danil Kavun"
+    },
+    "hometown": {
+      "original": "Дніпро",
+      "ua": null,
+      "en": "Dnipro"
+    },
+    "current_city": {
+      "original": "Краматорск",
+      "ua": null,
+      "en": "Kramatorsk (Donetsk Oblast)"
+    },
+    "tags": [],
+    "text": {
+      "original": "Я побачив по відео як люди малювали на гаражах графіті і мені це дуже це сподобалося і я захотів теж спробувати.",
+      "ua": null,
+      "en": "I saw on a video how people painted graffiti on garages and I really liked it and wanted to try it too."
+    }
+  },
+  {
+    "id": "012",
+    "year": 2023,
+    "image": "012.jpg",
+    "author": {
+      "original": "Кирилл",
+      "ua": "Кирило",
+      "en": "Kyryll"
+    },
+    "hometown": {
+      "original": "Краматорск",
+      "ua": "Краматорськ",
+      "en": "Kramatorsk (Donetsk Oblast)"
+    },
+    "current_city": {
+      "original": "Краматорск",
+      "ua": "Краматорськ",
+      "en": "Kramatorsk (Donetsk Oblast)"
+    },
+    "tags": [],
+    "text": {
+      "original": "Я нарисовал, как я с папой и мамой пришёл на рыбалку на речку Торец в парке в центре. Здесь мы ловим рыбу и уточек кормим. Мама на лавочке сидит, а мы с папой ловим. В прошлый раз наловили четыре штуки. Это были караси. Ой, карпы! А скоро пойдём на зимнюю рыбалку.",
+      "ua": "Я намалював, як я з татом і мамою прийшов на рибалку на річку Торець в парку в центрі. Тут ми ловимо рибу та каченят годуємо. Мама на лавочці сидить, а ми з татом ловимо. Минулого разу наловили чотири штуки. Це були карасі. Ой, коропи! А скоро підемо на зимову рибалку.",
+      "en": "I drew how I went fishing with my dad and mom on the Torets кiver in the park in the city center. Here we catch fish and feed the ducklings. Mom is sitting on the bench, and Dad and I are fishing. Last time we caught four pieces. These were crucian carp. Oh, common carp! And soon we will go winter fishing."
+    }
+  },
+  {
+    "id": "013",
+    "year": 2023,
+    "image": "013.jpg",
+    "author": {
+      "original": "Полина",
+      "ua": "Поліна",
+      "en": "Polyna"
+    },
+    "hometown": {
+      "original": "Краматорск",
+      "ua": "Краматорськ",
+      "en": "Kramatorsk (Donetsk Oblast)"
+    },
+    "current_city": {
+      "original": "Краматорск",
+      "ua": "Краматорськ",
+      "en": "Kramatorsk (Donetsk Oblast)"
+    },
+    "tags": [],
+    "text": {
+      "original": "Это дача в посёлке под названием «Пустошь». Это там, где пляж. Тут у нас гарбузы растут и фазаны бегают. А ещё растёт виноград. Там у нас есть воздушный змей, а на чердаке мыши катают орехи. А ещё мне летом подарили коврик, я на нем лежу и смотрю ночью на звезды. Ещё есть бассейн, но мне для него листочка не хватило.",
+      "ua": "Це дача в селищі під назвою «Пустош». Це там, де пляж. Тут у нас гарбузи ростуть і фазани бігають. А ще росте виноград. Там у нас є повітряний змій, а горищі миші катають горіхи. А ще мені літом подарували килимок, я на ньому лежу і дивлюсь вночі на зірки. Є ще басейн, але мені для нього не вистачило листочка.",
+      "en": "This ia a dacha in the “Pustosh” village. That is where the beach is. Here are we have pumpkins grow and pheasants run around. And grapes also grow here. We have a kite there, and mice roll nuts in the attic. And also I got a present this summer — little carpet, I lie on it in the night and watch the stars. Also there is swimming pool, but I didn`t have enough space to draw it."
+    }
+  },
+  {
+    "id": "014",
+    "year": 2023,
+    "image": "014.jpg",
+    "author": {
+      "original": "Аня",
+      "ua": "Аня",
+      "en": "Ania"
+    },
+    "hometown": {
+      "original": "Краматорск",
+      "ua": "Краматорськ",
+      "en": "Kramatorsk (Donetsk Oblast)"
+    },
+    "current_city": {
+      "original": "Краматорск",
+      "ua": "Краматорськ",
+      "en": "Kramatorsk (Donetsk Oblast)"
+    },
+    "tags": [],
+    "text": {
+      "original": "Ето майо любмае место каток ❤️",
+      "ua": "Це моє улюблене місце ковзанка ❤️",
+      "en": "This is my favorite place — the ice rink ❤️"
+    }
+  },
+  {
+    "id": "015",
+    "year": 2023,
+    "image": "015.jpg",
+    "author": {
+      "original": "Богдан В.",
+      "ua": "Богдан В.",
+      "en": "Bohdan V."
+    },
+    "hometown": {
+      "original": "Краматорск",
+      "ua": "Краматорськ",
+      "en": "Kramatorsk (Donetsk Oblast)"
+    },
+    "current_city": {
+      "original": "Краматорск",
+      "ua": "Краматорськ",
+      "en": "Kramatorsk (Donetsk Oblast)"
+    },
+    "tags": [],
+    "text": {
+      "original": "Это вид из окна моей дачи! Я вспоминаю момент когда идёт гроза и света нет, греемся у камина Мне нравится уют.",
+      "ua": "Це вид з вікна моєї дачі! Я згадую момент коли йде гроза і світла нема, гріємось біля каміна. Я люблю затишок.",
+      "en": "This is the view from the window of my country house! I remember the moment, while there is thunderstorm s and no light, we are warming ourselves by the fireplace. I love coziness."
+    }
+  },
+  {
+    "id": "016",
+    "year": 2023,
+    "image": "016.jpg",
+    "author": {
+      "original": "Никита",
+      "ua": "Микита",
+      "en": "Nykyta"
+    },
+    "hometown": {
+      "original": "Ясногорка",
+      "ua": "Ясногірка",
+      "en": "Yasnohirka (Donetsk Oblast)"
+    },
+    "current_city": {
+      "original": "Ясногорка",
+      "ua": "Ясногірка",
+      "en": "Yasnohirka (Donetsk Oblast)"
+    },
+    "tags": [],
+    "text": {
+      "original": "Я нарисовал место, в котором мы пробыли очень долго. Мы были в нем с самого начала, ещё когда его только строили. Мы здесь залезли в плёнку и в бочку, играли в призраков, монстра, паука и прятки. А ещё катались на качеле — раскручивали друг друга, потом отпускали и всех тошнило. А, ещё на этой площадке был Миша, но он куда-то пропал. Пушистый. Это собака. Сейчас за нами бегает Ева, раньше бегала Найда. А ещё раньше были котята, но они куда-то тоже пропали.",
+      "ua": "Я намалював місце, де ми пробули дуже довго. Ми були в ньому від початку, коли його ще тільки будували. Ми тут залізли в плівку і в бочку, грали у привидів, монстра, павука та хованки. А ще каталися на гойдалці — розкручували один одного, потім відпускали і всіх нудило. А ще на цьому майданчику був Мішка, але він кудись зник. Пухнастий. Це собака. Зараз за нами бігає Єва, раніше бігала Найда. А ще раніше були кошенята, але вони теж кудись зникли.",
+      "en": "I drew a place where we’ve spent a very long time.We’ve been there since the beginning, before it was even built. We climbed into the film and the barrel, played ghosts and monsters and spiders and hide-and-seek. And we’d go on the swing — we’d spin each other around, then let go and we’d all get sick. Oh, there was a Misha in this playground, but he disappeared. Fluffy. It’s a dog. Eva chases us now, and before that there was Naida. And there used to be kittens, but they’ve disappeared too."
+    }
+  },
+  {
+    "id": "017",
+    "year": 2023,
+    "image": "017.jpg",
+    "author": {
+      "original": "Злата",
+      "ua": "Злата",
+      "en": "Zlata"
+    },
+    "hometown": {
+      "original": "Ясногорка",
+      "ua": "Ясногірка",
+      "en": "Yasnohirka (Donetsk Oblast)"
+    },
+    "current_city": {
+      "original": "Ясногорка",
+      "ua": "Ясногірка",
+      "en": "Yasnohirka (Donetsk Oblast)"
+    },
+    "tags": [],
+    "text": {
+      "original": "Здесь склон, озеро и цветочки. Я здесь делаю венки из цветов и дарю подружкам. Меня мама научила плести! А внизу, где склон, сидит рыбак и рыбачит каждый день. Он мне цветок показал радужный. Редкий. Но я его не видела. А ещё дети там, где нет склона, построили дом на дереве, но я туда не лазила.",
+      "ua": "Тут схил, озеро та квіточки. Я тут роблю вінки з квітами і дарю їх подружкам. Мене мама навчила плести! А внизу, де схил, сидить рибак і рибачить щодня. Він мені квітку показав райдужну. Рідкісну. Але я її не бачила. А ще діти там, де немає схилу, збудували будинок на дереві, але я туди не лазила.",
+      "en": "There’s a slope, a lake and flowers. This is where I make flower crowns to give to my friends. My mum taught me how to make them! And down there, where the slope is, there’s a fisherman who fishes every day. He showed me a rainbow flower. It’s rare. But I have never seen it. And the children built a tree house where there is no slope, but I didn’t go up there."
+    }
+  },
+  {
+    "id": "018",
+    "year": 2023,
+    "image": "018.jpg",
+    "author": {
+      "original": "Никита",
+      "ua": "Микита",
+      "en": "Nykyta"
+    },
+    "hometown": {
+      "original": "Ясногорка",
+      "ua": "Ясногірка",
+      "en": "Yasnohirka (Donetsk Oblast)"
+    },
+    "current_city": {
+      "original": "Ясногорка",
+      "ua": "Ясногірка",
+      "en": "Yasnohirka (Donetsk Oblast)"
+    },
+    "tags": [],
+    "text": {
+      "original": "Я нарисовал Торец. Это место, в которое мы ходили на летних каникулах. Там было дерево, по которому мы поднимались, чтобы нырнуть. Часто начинался дождь и из-за этого мы приходили домой мокрые. Там мутная вода, много стрекоз, рыбок, жабок и ещё есть маленький фонтан. Один раз видели коров, которых пас наш друг. Мы там снимали видео — просто снимали, как мы гуляем. Такое видео занимало два гигабайта или даже десять гигабайтов памяти.Из-за войны мама запрещала туда ходить, но мы все равно втайне ходили. А сейчас уже страшно…",
+      "ua": "Я намалював Торець. Це місце, куди ми ходили на літніх канікулах. Там було дерево, на яке ми піднімалися, щоб пірнути. Часто починався дощ, через це ми приходили додому мокрі. Там мутна вода, багато бабок, рибок, жабок, та ще є маленький фонтан. Одного разу бачили корів, яких пас наш друг. Ми там знімали відео — просто знімали, як ми гуляємо. Таке відео займало два гігабайти або навіть десять гігабайтів пам’яті.Через війну мама забороняла туди ходити, але ми все одно потай ходили. А зараз уже страшно…",
+      "en": "I drew Toretz. It’s a place we used to go in the summer holidays. There was a tree we climbed to go diving. Often it would rain and we would come home wet. There is muddy water, lots of dragonflies, fish, toads and a small fountain. Once we saw cows that our friend was herding. We made a video there — just filming ourselves walking around. Such a video took up two or even ten GB of memory. Because of the war, my mother forbade us to go there, but we secretly went anyway. And now it’s scary…"
+    }
+  },
+  {
+    "id": "019",
+    "year": 2023,
+    "image": "019.jpg",
+    "author": {
+      "original": "Мария Матвеева",
+      "ua": "Марія Матвєєва",
+      "en": "Maryia Matveeva"
+    },
+    "hometown": {
+      "original": "Краматорск",
+      "ua": "Краматорськ",
+      "en": "Kramatorsk (Donetsk Oblast)"
+    },
+    "current_city": {
+      "original": "Краматорск",
+      "ua": "Краматорськ",
+      "en": "Kramatorsk (Donetsk Oblast)"
+    },
+    "tags": [],
+    "text": {
+      "original": "Это рисунок в память о моей поездке во Львов. Красивый город, мне очень понравилось и я там поняла все трудности взрослой жизни. Мы много гуляли, катались на трамвае. Там очень высокие цены и нужно осознанно все покупать. А ещё я во Львове увидела рабочие школы. Каждый день, когда мы ходили куда-то ходить полюбоваться красотами города, и явидела, как дети в школу идут. Маленькие дети, сами. Из девятиэтажки вышли, идут по городу сами. А тут я только в четвёртом классе начала сама ездить. А ещё во Львове есть трамваи, в Краматорске их уже давно нет.",
+      "ua": "Це малюнок на згадку про мою поїздку до Львова. Красиве місто, мені дуже сподобалося, і я там зрозуміла всі труднощі дорослого життя. Ми багато гуляли, каталися трамваєм. Там дуже високі ціни і потрібно усвідомлено все купувати. А ще я у Львові побачила працюючи школи. Щодня, коли ми ходили кудись ходити помилуватися красою міста, я бачила, як діти до школи йдуть. Маленькі діти, самі. З дев’ятиповерхівки вийшли, ідуть містом самі. А тут я лише у четвертому класі почала сама їздити. А ще у Львові є трамваї, у Краматорську їх уже давно нема.",
+      "en": "This is a drawing in memory of my trip to Lviv. It is a very beautiful city, I liked it very much and there I realised all the difficulties of adult life. We walked a lot and rode the tram. Everything is very expensive there and you have to buy everything consciously. I also saw functioning schools in Lemberg. Every day, when we went somewhere to admire the beauty of the city, I saw children going to school. Little children, alone. From a nine-storey building, walking through the city on their own. And here I only started going to school on my own in the fourth grade. And there are trams in Lviv, in Kramatorsk they haven’t existed for a long time."
+    }
+  },
+  {
+    "id": "020",
+    "year": 2023,
+    "image": "020.jpg",
+    "author": {
+      "original": "Саша",
+      "ua": "Саша",
+      "en": "Sasha"
+    },
+    "hometown": {
+      "original": "Ясногірка",
+      "ua": null,
+      "en": "Yasnohirka (Donetsk Oblast)"
+    },
+    "current_city": {
+      "original": "Ясногірка",
+      "ua": null,
+      "en": "Yasnohirka (Donetsk Oblast)"
+    },
+    "tags": [],
+    "text": {
+      "original": "Я кожне літо приіджаю на це озеро Саленка, воно знаходиться поруч з Краматорськом.",
+      "ua": null,
+      "en": "Every summer I come to this lake Salenka, which is located near Kramatorsk."
+    }
+  },
+  {
+    "id": "021",
+    "year": 2023,
+    "image": "021.jpg",
+    "author": {
+      "original": "Дарина",
+      "ua": "Дарина",
+      "en": "Daryna"
+    },
+    "hometown": {
+      "original": "Краматорськ",
+      "ua": null,
+      "en": "Kramatorsk (Donetsk Oblast)"
+    },
+    "current_city": {
+      "original": "Краматорськ",
+      "ua": null,
+      "en": "Kramatorsk (Donetsk Oblast)"
+    },
+    "tags": [],
+    "text": {
+      "original": "Насправді це місце багато значить для мене. Це гойдалка, що знаходиться у дворі моєї прабабусі. У мене є багато дитячих спогадів, що пов’язані з цим місцем. Було дуже класно сидіти на гойдалці, коли тебе качає твій дідусь, а потім іти і пити компот. Багато позитиву та щасливих моментів. Зараз сумно, що це місце вже не таке, яке було у моєму дитинстві. Але я рада, що змогла запам’ятати його таким, яким бачила у минулому.",
+      "ua": null,
+      "en": "In fact, this place means a lot to me. It’s a swing in my great-grandmother’s yard. I have a lot of childhood memories associated with this place. It was very cool to sit on the swing while your grandfather swung you, and then to go and drink compote. Many positive and happy moments. Now it’s sad that this place isn’t the same as it was when I was a child. But I am glad that I can remember it the way I saw it in the past."
+    }
+  },
+  {
+    "id": "022",
+    "year": 2023,
+    "image": "022.jpg",
+    "author": {
+      "original": "Саша Н.",
+      "ua": "Саша Н.",
+      "en": "Sasha N."
+    },
+    "hometown": {
+      "original": "Ясногорка",
+      "ua": "Ясногірка",
+      "en": "Yasnohirka (Donetsk Oblast)"
+    },
+    "current_city": {
+      "original": "Ясногорка",
+      "ua": "Ясногірка",
+      "en": "Yasnohirka (Donetsk Oblast)"
+    },
+    "tags": [],
+    "text": {
+      "original": "Озеро на котором мы с родными и друзьями проводили время убирали строили пирс для ловли рыбы. Наблюдали за природой и хорошо проводили жаркие летние дни.",
+      "ua": "Озеро на якому ми з рідними та друзями проводили час прибирали будували пірс для лову риби. Спостерігали за природою та добре проводили спекотні літні дні.",
+      "en": "A lake where we spent time with family and friends, cleaning, building a jetty for fishing. Watching nature and having a good time on hot summer days."
+    }
+  },
+  {
+    "id": "023",
+    "year": 2023,
+    "image": "023.jpg",
+    "author": {
+      "original": "Маша",
+      "ua": "Маша",
+      "en": "Masha"
+    },
+    "hometown": {
+      "original": "Краматорськ",
+      "ua": null,
+      "en": "Kramatorsk (Donetsk Oblast)"
+    },
+    "current_city": {
+      "original": "Краматорськ",
+      "ua": null,
+      "en": "Kramatorsk (Donetsk Oblast)"
+    },
+    "tags": [],
+    "text": {
+      "original": "Я цією дорогою кожний день єздю на автобусі. І цією дорогою я їздила коли ще була маленька і ходила в садик. І в школу. Це моя сама любима дорога. Там дуже красива природа і стовпи… Дуже багато електрики.",
+      "ua": null,
+      "en": "I take the bus along this road every day. When I was a little girl, I used this road to go to kindergarten. And to school. This is my favourite way. There is very beautiful nature and pylons… Lots of electricity."
+    }
+  },
+  {
+    "id": "024",
+    "year": 2023,
+    "image": "024.jpg",
+    "author": {
+      "original": "Настя",
+      "ua": "Настя",
+      "en": "Nastia"
+    },
+    "hometown": {
+      "original": "Краматорск",
+      "ua": "Краматорськ",
+      "en": "Kramatorsk (Donetsk Oblast)"
+    },
+    "current_city": {
+      "original": "Краматорск",
+      "ua": "Краматорськ",
+      "en": "Kramatorsk (Donetsk Oblast)"
+    },
+    "tags": [],
+    "text": {
+      "original": "Это мой дом, солнце, небо и трава. Дом не розовый, а серый. Там я живу вместе с белым, пушистым котом Пушком и собакой чихуахуа Робертом. Ещё там живут мои друзья: Полина младшая, ей четыре года, и Ваня, такой маленький — ему 7 лет. И у них есть брат Марик. А ещё есть девочка Руся, она лечит собак, и у них было три собаки, два попугая, белки, шиншилл много.",
+      "ua": "Це мій дім, сонце, небо та трава. Будинок не рожевий, а сірий. Там я живу разом із білим, пухнастим котом Пушком та собакою чихуахуа Робертом. Ще там живуть мої друзі: Поліна молодша, їй чотири роки, і Ваня маленький — йому 7 років. І вони мають брата Марик. А ще є дівчинка Руся, вона лікує собак. У неї було три собаки, два папуги, білки, шиншил багато.",
+      "en": "This is my house, sun, sky and grass. The house is not pink, but grey. I live there together with my white, fluffy cat Pushko and my Chihuahua dog Robert. My friends also live there: Polina, the youngest, who is four years old, and little Vanya, who is seven. And they have a brother Marik. And there is also a girl Rusya, she treats dogs, and they had three dogs, two parrots, squirrels, chinchillas a lot."
+    }
+  },
+  {
+    "id": "025",
+    "year": 2023,
+    "image": "025.jpg",
+    "author": {
+      "original": "Полина",
+      "ua": "Поліна",
+      "en": "Polyna"
+    },
+    "hometown": {
+      "original": "Краматорск",
+      "ua": "Краматорськ",
+      "en": "Kramatorsk (Donetsk Oblast)"
+    },
+    "current_city": {
+      "original": "Краматорск",
+      "ua": "Краматорськ",
+      "en": "Kramatorsk (Donetsk Oblast)"
+    },
+    "tags": [],
+    "text": {
+      "original": "Во втором классе я ездила на пожарную станцию. Там нам показывали разные службовые машины. Мы даже фотографировались на тех машинах. Там был красивый фонтан и очень красивый двор. Моя подруга сказала, что сейчас завоет сирена — и она завыла. И пожарные поехали на вызов. Это все случилось мгновенно, они быстро спустились, быстро оделись и быстро уехали. Нам показали новую модель машины, которую ещё даже не выпускали. Они на ней и поехали. В 2020 году в пожарную станцию «прилетело» и некоторые машины разнесло.",
+      "ua": "У другому класі я їздила на пожежну станцію. Там нам показували різні службові машини. Ми навіть фотографувалися на тих машинах. Там був гарний фонтан та дуже гарний двір. Моя подруга сказала, що зараз завиє сирена — і вона завила. Пожежники поїхали на виклик. Це все трапилося миттєво, вони швидко спустилися, швидко одягнулися та швидко поїхали. Нам показали нову модель машини, яку ще не випускали. Вони на ній і поїхали. В 2020 році в пожежну станцію «прилетіло» і деякі машини рознесло.",
+      "en": "In second grade, I visited a fire station. They showed us different fire engines. We even took pictures with them. There was a beautiful fountain and a very nice courtyard. My friend said that the siren was going to wail — and it did. And the fire fighters went to the call. Everything happened instantly, they came down quickly, dressed quickly and left quickly. We were shown a new type of vehicle that hadn’t even been used yet. That’s what they were driving. In 2020, a shell flew into the fire station and some of the vehicles were blown apart."
+    }
+  },
+  {
+    "id": "026",
+    "year": 2023,
+    "image": "026.jpg",
+    "author": {
+      "original": "Настя Гамий",
+      "ua": "Настя Гамій",
+      "en": "Nastia Hamyi"
+    },
+    "hometown": {
+      "original": "Краматорск",
+      "ua": "Краматорськ",
+      "en": "Kramatorsk (Donetsk Oblast)"
+    },
+    "current_city": {
+      "original": "Краматорск",
+      "ua": "Краматорськ",
+      "en": "Kramatorsk (Donetsk Oblast)"
+    },
+    "tags": [],
+    "text": {
+      "original": "Я нарисовала ТатоХаб, где мне очень нравится. Это очень хорошее место и тут очень красиво все. Тут есть моя подруга Ульяна. И ещё другие девочки, но я не всех имена запоминаю. Я очень люблю тут лепить и рисовать. А ещё мы клеим клеевым пистолетом. Один раз мы делали грибочек клеевым пистолетом, а теперь он красуется у меня на полочке дома.",
+      "ua": "Я намалювала ТатоХаб, де мені дуже подобається. Це дуже гарне місце, і тут дуже красиво все. Тут є моя подруга Уляна. І ще інші дівчатка, але я не всіх імена запам’ятовую. Я дуже люблю тут ліпити та малювати. А ще ми клеїмо клейовим пістолетом. Одного разу ми робили грибочок клейовим пістолетом, а тепер він красується у мене вдома на полиці.",
+      "en": "I drew the TatoHub, where I really like to be. It’s a very nice place and everything is very beautiful here. My friend Ulyana is here. And some other girls, but I can’t remember all their names. I like sculpting and drawing a lot. And we glue with a glue gun. Once we made a mushroom with a glue gun and now it is on my shelf at home."
+    }
+  },
+  {
+    "id": "027",
+    "year": 2023,
+    "image": "027.jpg",
+    "author": {
+      "original": "Ульяна",
+      "ua": "Уляна",
+      "en": "Uliana"
+    },
+    "hometown": {
+      "original": "Краматорск",
+      "ua": "Краматорськ",
+      "en": "Kramatorsk (Donetsk Oblast)"
+    },
+    "current_city": {
+      "original": "Краматорск",
+      "ua": "Краматорськ",
+      "en": "Kramatorsk (Donetsk Oblast)"
+    },
+    "tags": [],
+    "text": {
+      "original": "Это место, куда мы ездили по воду. Мы там с Кириллом бегали-бегали (это мой брат — Кирилл), и нашли это место, и позвали маму с папой. Решили когда-то устроить там пикник и устроили его. А палатка — это моё изображение. Я её придумала, чтобы в ней спать. А ещё придумала подушки, бассейн и фонарики. Этого там нет, но я бы хотела, чтобы было. А ещё я помню там был домик муравьёв, поэтому я его тоже нарисовала. Ещё я случайно сделала эту линию и подумала — красивая линия. И ещё одну сделала.",
+      "ua": "Це місце, куди ми їздили за водою. Ми там з Кирилом бігали-бігали (це мій брат — Кирило), і знайшли це місце, і покликали маму з татом. Вирішили колись влаштувати там пікнік і влаштували його. А намет — це моє зображення. Я його вигадала, щоб у ньому спати. А ще придумала подушки, басейн та ліхтарики. Цього там немає, але я хотіла б, щоб було. А ще я пам’ятаю там був мурашиний будиночок, тож я його теж намалювала. Ще я випадково зробила цю лінію та подумала — гарна лінія. І ще одну зробила.",
+      "en": "This is the place where we went for water. We ran and ran with Kyrylo (that’s my brother — Kyrylo) and we found this place and called mum and dad. We decided to have a picnic there one day and we did. And the tent is my image. I designed it so that I could sleep in it. I also invented the pillows and the pool and the lanterns. It’s not there, but I wish it was. I also remember there was an ant house, so I drew that too. I also accidentally made this line and I thought, “That’s a nice line”. And I made another one."
+    }
+  },
+  {
+    "id": "028",
+    "year": 2023,
+    "image": "028.jpg",
+    "author": {
+      "original": "Лиза",
+      "ua": "Ліза",
+      "en": "Lyza"
+    },
+    "hometown": {
+      "original": "Краматорск",
+      "ua": "Краматорск",
+      "en": "Kramatorsk (Donetsk Oblast)"
+    },
+    "current_city": {
+      "original": "Краматорск",
+      "ua": "Краматорск",
+      "en": "Kramatorsk (Donetsk Oblast)"
+    },
+    "tags": [],
+    "text": {
+      "original": "Это парк Юбилейный. Тут есть флаг, деревья и недалеко церковь. Много красивых деревьев и цветов, а ещё есть большое озеро с утками, лягушками и лебедями. Когда мы ходим на занятия, то проходим этот парк.",
+      "ua": "Це парк Ювілейний. Тут є прапор, дерева та недалеко церква. Багато красивих дерев та квітів, а ще є велике озеро з качками, жабами та лебедями. Коли ми ходимо на заняття, то проходимо через цей парк.",
+      "en": "This is Jubilee Park. There is a flag, trees and a church not far away. There are lots of beautiful trees and flowers and there is a big lake with ducks, frogs and swans. When we go to class, we pass this park."
+    }
+  },
+  {
+    "id": "029",
+    "year": 2023,
+    "image": "029.jpg",
+    "author": {
+      "original": "Влада",
+      "ua": "Влада",
+      "en": "Vlada"
+    },
+    "hometown": {
+      "original": "Краматорск",
+      "ua": "Краматорск",
+      "en": "Kramatorsk (Donetsk Oblast)"
+    },
+    "current_city": {
+      "original": "Краматорск",
+      "ua": "Краматорск",
+      "en": "Kramatorsk (Donetsk Oblast)"
+    },
+    "tags": [],
+    "text": {
+      "original": "Я намалювала ліс, де відпочивають люди. Тут палатка і розведений огонь. Озеро і пара дерев є. Я назвала цей малюнок — «Відпочинок на природі». Я это место придумала, но мама говорит, что оно есть, просто мы пока не можем туда поехать из-за войны.",
+      "ua": "Я намалювала ліс, де відпочивають люди. Тут намет і багаття. Озеро та пара дерев є. Я назвала цей малюнок — «Відпочинок на природі». Я нафантазувала це місце, але мама каже, що воно насправді існує, але ми поки що не можемо туди поїхати через війну.",
+      "en": "I drew a forest where people are resting. There is a tent and a fire. There is a lake and a couple of trees. I called this drawing “Outdoor Recreation”. I made this place up, but my mum says it’s real, we just can’t go there yet because of the war."
+    }
+  },
+  {
+    "id": "030",
+    "year": 2023,
+    "image": "030.jpg",
+    "author": {
+      "original": "Дарина",
+      "ua": "Дарина",
+      "en": "Daryna"
+    },
+    "hometown": {
+      "original": "Краматорск",
+      "ua": "Краматорск",
+      "en": "Kramatorsk (Donetsk Oblast)"
+    },
+    "current_city": {
+      "original": "Краматорск",
+      "ua": "Краматорск",
+      "en": "Kramatorsk (Donetsk Oblast)"
+    },
+    "tags": [],
+    "text": {
+      "original": "Я нарисовала сад Бернадского в Краматорске. Я там постоянно бываю, гуляю с друзьями и родителями. Там есть озеро и разные качели. Вообще там интересно, много всяких детских площадок. А я там просто хожу, могу иногда на качеле покататься. А на озере даже ловят рыбу!",
+      "ua": "Я намалювала сад Бернадського у Краматорську. Я там постійно буваю, гуляю з друзями та батьками. Там є озеро та різні гойдалки. Взагалі там цікаво, багато всіляких дитячих майданчиків. А я там просто ходжу, можу іноді на гойдалці покататися. А на озері навіть ловлять рибу!",
+      "en": "I drew Bernatsky’s garden in Kramatorsk. I go there all the time, walking with my friends and parents. There is a lake and various swings. In general it’s interesting, there are lots of playgrounds. I just go there, I can sometimes ride on a swing. And there’s even fishing on the lake!"
+    }
+  },
+  {
+    "id": "031",
+    "year": 2023,
+    "image": "031.jpg",
+    "author": {
+      "original": "Настя",
+      "ua": "Настя",
+      "en": "Nastia"
+    },
+    "hometown": {
+      "original": "Краматорск",
+      "ua": "Краматорск",
+      "en": "Kramatorsk (Donetsk Oblast)"
+    },
+    "current_city": {
+      "original": "Краматорск",
+      "ua": "Краматорск",
+      "en": "Kramatorsk (Donetsk Oblast)"
+    },
+    "tags": [],
+    "text": {
+      "original": "Это утки у озера. Я всегда сюда с папой ходила веселилась, но папа уехал. Теперь из-за войны там закрыто, только одна площадка осталась. Но я все равно катаюсь туда на велике и кормлю уток. Там ещё есть дикая курочка — все её так и называют: «курочка». Её я тоже кормлю, и в последний раз ей достался большой кусок.",
+      "ua": "Це качки біля озера. Я завжди сюди з татом ходила веселилась, але тато поїхав. Тепер через війну там закрито, тільки один майданчик залишився. Але я все одно катаюся туди на велосипеді і годую качок. Там ще є дика курочка — всі її так і називають: «курочка». Її я теж годую, і останній раз їй дістався великий шматок.",
+      "en": "It’s the ducks on the lake. I used to come here with my dad to have fun, but he left. Now it’s closed because of the war, there’s only a playground. But I still go there on my bike and feed the ducks. There’s also a wild hen there — everyone calls it “the hen”. I feed it too, and last time it got a big piece."
+    }
+  },
+  {
+    "id": "032",
+    "year": 2023,
+    "image": "032.jpg",
+    "author": {
+      "original": "Лера",
+      "ua": "Лєра",
+      "en": "Lera"
+    },
+    "hometown": {
+      "original": "Краматорск",
+      "ua": "Краматорск",
+      "en": "Kramatorsk (Donetsk Oblast)"
+    },
+    "current_city": {
+      "original": "Краматорск",
+      "ua": "Краматорськ",
+      "en": "Kramatorsk (Donetsk Oblast)"
+    },
+    "tags": [],
+    "text": {
+      "original": "Я нарисовала аквариумных рыб. Вообще это музей, там, где есть рыбки. Он у меня возле дома прям, и мы туда часто с родителями ходим. Он находится в Краматорске, и там очень много зарубежных рыбок. Много всяких кораллов, там даже скат есть, и большие рыбы. И, например, там ещё есть пираньи. И один раз нам показали,, как их кормят. Они за несколько секунд разделали весь кусок мяса. Там ещё есть одна черепаха, её зовут Дороти — ей один год.",
+      "ua": "Я намалювала акваріумних риб. Взагалі це музей, там, де є рибки. Він у мене поряд з будинком, і ми туди часто з батьками ходимо. Він знаходиться в Краматорську, і там багато зарубіжних рибок. Багато всяких коралів, там навіть скати є, і великі риби. І, наприклад, там ще є піраньї. І одного разу нам показали, як їх годують. Вони за кілька секунд з’їли весь шматок м’яса. Там ще є одна черепаха, її звуть Дороті — їй один рік.",
+      "en": "I drew aquarium fish. It’s actually a museum where there are fish. It is near my house and we often go there with my parents. It is in Kramatorsk and there are lots of foreign fish. A lot of corals, there is even a stingray, and big fish. And there are piranhas, for example. And once they showed us how they were fed. It took them a few seconds to cut up a whole piece of meat. There’s also a turtle called Dorothy, she’s a year old."
+    }
+  },
+  {
+    "id": "033",
+    "year": 2023,
+    "image": "033.jpg",
+    "author": {
+      "original": "Марк Калашников",
+      "ua": "Марк Калашніков",
+      "en": "Mark Kalashnikov"
+    },
+    "hometown": {
+      "original": "Краматорск",
+      "ua": "Краматорськ",
+      "en": "Kramatorsk (Donetsk Oblast)"
+    },
+    "current_city": {
+      "original": "Краматорськ",
+      "ua": "Краматорськ",
+      "en": "Kramatorsk (Donetsk Oblast)"
+    },
+    "tags": [],
+    "text": {
+      "original": "Я нарисовал свою школу номер восемь. Я помню, как когда-то зимой я играл со своими друзьями там в снежки.Тогда я ходил на плаванье и за мной приехал папа, шоб меня забрать. Я сказал, что плаванья нету, потому что когда я в прошлые разы туда ходил, увидел, что плаванья не будет какое-то время. Я ему сказал, и он уехал. А мы продолжили играть в снежки. Было очень интересно.",
+      "ua": "Я намалював свою школу номер вісім. Я пам’ятаю, як колись взимку я грав зі своїми друзями там у сніжки. Тоді я ходив на плавання і за мною приїхав тато, щоб мене забрати. Я сказав, що плавання нема, бо коли я минулого разу туди ходив, побачив, що плавання не буде якийсь час. Я йому сказав, і він поїхав. А ми продовжили грати у сніжки. Було дуже цікаво.",
+      "en": "I drew my school No. 8. I remember playing snowballs with my friends there one winter. I went for a swim and my dad came to pick me up. I told him there was no swimming because the last time I was there I saw that there wouldn’t be any swimming for a while. I told him that and he left. And we went on playing snowballs. It was very interesting."
+    }
+  },
+  {
+    "id": "034",
+    "year": 2023,
+    "image": "034.jpg",
+    "author": {
+      "original": "Софія Чернушенко",
+      "ua": "Софія Чернушенко",
+      "en": "Sofiia Chernushenko"
+    },
+    "hometown": {
+      "original": "Святогірськ",
+      "ua": null,
+      "en": "Sviatohirsk (Donetsk Oblast)"
+    },
+    "current_city": {
+      "original": "Святогірськ",
+      "ua": null,
+      "en": "Sviatohirsk (Donetsk Oblast)"
+    },
+    "tags": [],
+    "text": {
+      "original": "Це мій улюблений магазин. Я коли приїжджала до Святогірська, завжди сюди заходила, разів по п’ять на день, по шість. І завжди все покупала. Він, напевно був зелений. Зелений з сірим і синій. Дуже великий супермаркет. Там було сімнадцять великих відділень, акції, одяг, іграшки, всякі маски для волосся, шампуні. Ми завжди з друзями гуляли тут. Проходим мимо — зайшли. Обратно ідем — зайшли. Частіше за все я там купувала булочки з вишней та холодний чай.",
+      "ua": null,
+      "en": "This is my favourite shop. When I came to Sviatohirsk, I used to come here five or six times a day. I always bought everything. The shop must have been green. Green with grey and blue. It was a very large supermarket. There were seventeen big branches, sales, clothes, toys, all kinds of hair masks, shampoos. I used to go there with my friends. When we passed by, we would go in. On the way back, we would go inside. I used to buy cherry buns there most often and iced tea."
+    }
+  },
+  {
+    "id": "035",
+    "year": 2023,
+    "image": "035.jpg",
+    "author": {
+      "original": "Родион",
+      "ua": "Родіон",
+      "en": "Rodyon"
+    },
+    "hometown": {
+      "original": "Святогорск",
+      "ua": "Святогірськ",
+      "en": "Sviatohirsk (Donetsk Oblast)"
+    },
+    "current_city": {
+      "original": "Святогорск",
+      "ua": "Святогірськ",
+      "en": "Sviatohirsk (Donetsk Oblast)"
+    },
+    "tags": [],
+    "text": {
+      "original": "Это место рядом с моим домом. Тут есть абрикосовое дерево со столбом, ещё блоки лежат, чтобы люди не наступали и не провалились. Мы здесь играли в кидание песком, и один из моих бывших друзей вместо камешков песка кинул камень и попал мне в лоб. Куча крови была и мне очень сильно помог мой друг — он сказал плевать на листики с деревьев и замазывать рану. Сейчас на этой улице мало кто живёт. Мои друзья, скорее всего, не будут жить здесь и останутся за границей.",
+      "ua": "Це місце біля мого будинку. Тут є абрикосове дерево зі стовпом, ще блоки лежать, щоби люди не наступали і не провалилися. Ми тут грали в кидання піском, і один із моїх колишніх друзів замість каменів піску кинув камінь і влучив мені в лоба. Купа крові була і мені дуже допоміг мій друг — він сказав плювати на листочки з дерев і замазувати рану.Зараз цією вулицею мало хто живе. Мої друзі швидше за все не житимуть тут, залишаться за кордоном.",
+      "en": "This place is near my house. There’s an apricot tree with a pole and blocks to stop people stepping on it and falling through. We were playing sand-throwing here and one of my former friends threw a stone instead of sand pebbles and hit me in the forehead. There was a lot of blood and my another friend helped me a lot — he told me to spit on leaves from the trees to cover the wound. Few people live on this street now. My friends probably won’t live here anymore and will stay abroad."
+    }
+  },
+  {
+    "id": "036",
+    "year": 2023,
+    "image": "036.jpg",
+    "author": {
+      "original": "Соня",
+      "ua": "Соня",
+      "en": "Sonia"
+    },
+    "hometown": {
+      "original": "Святогірськ",
+      "ua": null,
+      "en": "Sviatohirsk (Donetsk Oblast)"
+    },
+    "current_city": {
+      "original": "Святогірськ",
+      "ua": null,
+      "en": "Sviatohirsk (Donetsk Oblast)"
+    },
+    "tags": [],
+    "text": {
+      "original": "Це стадіон у таборі «Перлина Донеччини». Я його намалювала, бо він значить для мене дуже багато. Я там багато часу провела зі своїми друзями, які вже не повернуться напевно в Україну. Але в мене є спогади дуже приємні, пов’язані з цим полем футбольним.",
+      "ua": null,
+      "en": "This is the stadium in the Pearl of Donetsk camp. I drew it because it means a lot to me. I spent a lot of time there with my friends who will probably never go back to Ukraine. But I have very fond memories of that football pitch."
+    }
+  },
+  {
+    "id": "037",
+    "year": 2023,
+    "image": "037.jpg",
+    "author": {
+      "original": "Ваня",
+      "ua": "Ваня",
+      "en": "Vania"
+    },
+    "hometown": {
+      "original": "Святогірськ",
+      "ua": null,
+      "en": "Sviatohirsk (Donetsk Oblast)"
+    },
+    "current_city": {
+      "original": "Святогірськ",
+      "ua": null,
+      "en": "Sviatohirsk (Donetsk Oblast)"
+    },
+    "tags": [],
+    "text": {
+      "original": "Це пляж на Севєрськом Донце і горка на втором берегу. Я там в детстве пригав з горки, квас пив, отдихав, короче.",
+      "ua": null,
+      "en": "It’s a beach on the Siverskyi Donets and a slide on the other bank. When I was a child, I used to come down there, drink kvass and relax."
+    }
+  },
+  {
+    "id": "038",
+    "year": 2023,
+    "image": "038.jpg",
+    "author": {
+      "original": "Даша",
+      "ua": "Даша",
+      "en": "Dasha"
+    },
+    "hometown": {
+      "original": "Святогорск",
+      "ua": "Святогірськ",
+      "en": "Sviatohirsk (Donetsk Oblast)"
+    },
+    "current_city": {
+      "original": "Святогорск",
+      "ua": "Святогірськ",
+      "en": "Sviatohirsk (Donetsk Oblast)"
+    },
+    "tags": [],
+    "text": {
+      "original": "Если обойти школу можно найти полянку с пролисками. Мы с подругой (Аля, привет) решили устроить там пикник и пошли туда. Взяли зонтики на всякий случай, потому что было ветрено, на дождь шло. Надеялись, что не будет дождя, но не оправдалось. Начался дождь, мы нашли высокое дерево, расстелили там одеяло, разложили вкусняшки, открыли зонтики. Провели там где-то два часа, пока дождь не закончился. Была приятная атмосфера и настроение хорошее.",
+      "ua": "Якщо обійти школу можна знайти галявину з пролісками. Ми з подругою (Аля, привіт) вирішили влаштувати пікнік і пішли туди. Взяли парасольки про всяк випадок, бо було вітряно, на дощ йшло. Сподівалися, що не буде дощу, але не виправдалося. Почався дощ, ми знайшли високе дерево, розстелили там ковдру, розклали ласощі, відкрили парасольки. Провели там десь дві години, доки дощ не скінчився. Була приємна атмосфера і настрій добрий.",
+      "en": "If you go around the school, you can find a clearing with scilla. My friend (Alya, hi) and I decided to have a picnic and went there. We took umbrellas just in case, because it was windy and it was going to rain. We hoped it wouldn’t rain, but our hopes were not fulfilled. It started to rain, we found a big tree, spread a blanket there, laid out some goodies and opened our umbrellas. We spent about two hours there before the rain stopped. The atmosphere was nice and the mood was good."
+    }
+  },
+  {
+    "id": "039",
+    "year": 2023,
+    "image": "039.jpg",
+    "author": {
+      "original": "Ксения",
+      "ua": "Ксенія",
+      "en": "Kseniia"
+    },
+    "hometown": {
+      "original": "Святогорск",
+      "ua": "Святогірськ",
+      "en": "Sviatohirsk (Donetsk Oblast)"
+    },
+    "current_city": {
+      "original": "Святогорск",
+      "ua": "Святогірськ",
+      "en": "Sviatohirsk (Donetsk Oblast)"
+    },
+    "tags": [],
+    "text": {
+      "original": "Было это летним жарким днём. Мы с подружками решили поиграть в прятки. Моя подруга решила спрятаться в сгоревшем пеньке. Нас пугали, говорили что там монстры, а она прямо туда спряталась. Потом мы всех нашли, кричим ей: «Выходи!». А она вышла чёрная: волосы, одежда, лицо, руки — все чёрное. Мы перепугались и убежали. А она за нами: «Вы куда?» и нас зовёт: «Ксюша», «Лера», «Маришка!». Мы ещё быстрее рванули, прибежали ко мне во двор. А она за нами: «Вы чего, девочки?». Мы увидели, что это она, говорим: «Посмотри в зеркало». Она как посмотрела…",
+      "ua": "Це було літнім спекотним днем. Ми з подружками вирішили пограти у хованки. Моя подруга сховалася в пеньку, який згорів. Нас лякали, казали, що там монстри, а вона прямо туди сховалася. Потім ми вже всіх знайшли, кричимо їй: «Виходь!». А вона виходить чорна: волосся, одяг, обличчя, руки — все чорне. Ми злякалися і побігли. Вона за нами! «Ви куди?» — і нас на ім’я кличе: «Ксюша», «Лера», «Марішка!». Ми ще швидше рванули, прибігли до мене у двір. А вона за нами: «Ви чого, дівчата?». Ми бачимо, що це вона, кажемо: «Подивися в дзеркало». Вона як подивилася…",
+      "en": "It was a hot summer’s day. My friends and I decided to play hide and seek. My friend decided to hide in a burnt tree stump. We have been scared and said that monsters were there, but that’s exactly where she hid. Then we found everyone and shouted at her: “Come out!” And she came out black: hair, clothes, face, hands — all black. We were scared and ran away. And she followed us: “Where are you going?” and calling us: “Ksiusha”, “Lera”, “Marishka”. We ran even faster, came to my yard. And she followed us: “What are you doing, girls?”. We realised it was her, we said: “Look in the mirror.” And she looked…"
+    }
+  },
+  {
+    "id": "040",
+    "year": 2023,
+    "image": "040.jpg",
+    "author": {
+      "original": "Арина",
+      "ua": "Аріна",
+      "en": "Arina"
+    },
+    "hometown": {
+      "original": "Знаменка",
+      "ua": "Знам'янка",
+      "en": "Znamianka (Kirovohrad Oblast)"
+    },
+    "current_city": {
+      "original": "Черновцы",
+      "ua": "Чернівці",
+      "en": "Chernivtsi"
+    },
+    "tags": [],
+    "text": {
+      "original": "Это одна из девятиэтажек в моем дворе. Там жили мои родственники и я у них ночевала. Тут всего две девятиэтажки и из окна одной видно другую. Мы с друзьями гуляли возле них, потому что нас далеко от дома не пускали. Здесь было место, которое мы называли «зелёным двором» — это площадка, возле которой стоял зелёный дом. А ещё был гараж — он был как холст для юных художников.",
+      "ua": "Це одна з дев’ятиповерхівок у моєму дворі. Там жили мої родичі, і я в них ночувала. Тут лише дві дев’ятиповерхівки і з вікна однієї видно іншу. Ми з друзями гуляли біля них, бо нас далеко від дому не відпускали. Тут було місце, яке ми називали «зеленим двором» — це майданчик, біля якого стояв зелений будиночок. А ще був гараж — він був як полотно для художників-початківців.",
+      "en": "This is one of the nine-story buildings in my yard. My relatives lived there, and I used to sleep over at their place. There are only two nine-story buildings, and from the window of one you can see the other. My friends and I hung out nearby because we weren’t allowed to go far from home. There was a place we called the “green yard” — a playground with a green house next to it. And there was also a garage, which was like a canvas for aspiring artists."
+    }
+  },
+  {
+    "id": "041",
+    "year": 2023,
+    "image": "041.jpg",
+    "author": {
+      "original": "Андрій К.",
+      "ua": "Андрій К.",
+      "en": "Andrii K."
+    },
+    "hometown": {
+      "original": "Маріуполь",
+      "ua": null,
+      "en": "Mariupol (Donetsk Oblast)"
+    },
+    "current_city": {
+      "original": "Вінниця",
+      "ua": null,
+      "en": "Vinnytsia"
+    },
+    "tags": [],
+    "text": {
+      "original": "Я майже все дитинство кожні вихідні їздив у ций драмтеатр, навіть день народження святкував в парку біля нього. Спочатку святкували вдома, а потім з батьками їхали туди. В парку були всякі батути, лабіринти, кафешки, фонтан, а потім поставили такі алейки, по яким вода розбризкувалась, як туман водяний. А ще були різнокольорові ліхтарики і багато пам’ятників. Також в парку голуби були, і я любив взяти батон і покрошити їм.",
+      "ua": null,
+      "en": "For most of my childhood, I went to this theater every weekend, I even celebrated my birthday in the park nearby. At first we celebrated at home, and then we went there with my parents. The park had all kinds of bouncy houses, labyrinths, cafes, a fountain, and then they built alleys where water sprayed along like a mist of water. Also, there were colorful lanterns and many monuments. There were pigeons in the park as well, and I liked bringing a loaf of bread and crumbling it for them."
+    }
+  },
+  {
+    "id": "042",
+    "year": 2023,
+    "image": "042.jpg",
+    "author": {
+      "original": "Паша Д.",
+      "ua": "Павло Д.",
+      "en": "Pavlo D."
+    },
+    "hometown": {
+      "original": "Харьков",
+      "ua": "Харків",
+      "en": "Kharkiv"
+    },
+    "current_city": {
+      "original": "Львов",
+      "ua": "Львів",
+      "en": "Lviv"
+    },
+    "tags": [],
+    "text": {
+      "original": "Я нарисовал свой двор. Я всегда считал его своим, но когда мне исполнилось 10 лет, мама сказала, что это не мой двор, но я все равно считаю его своим. Здесь в 2019 году зимой мы с моим другом Егором катались с горки до самой ночи и изучали трюки. Скатывались на круглых ледянках. В 2022 году сюда прилетела мина и многое разрушила. Егора очень жалко, он умер в 2021 году.",
+      "ua": "Я намалював свій двір. Я завжди вважав його своїм, але коли мені виповнилося 10 років, мама сказала, що це не мій двір, але я все одно вважаю його своїм. Тут у 2019 році взимку ми з моїм другом Єгором каталися з гірки до самої ночі та вивчали трюки. Скочувалися на круглих льодянках. В 2022 році сюди прилетіла міна і багато зруйнувала. Єгора дуже шкода, він помер у 2021 році.",
+      "en": "I drew my yard. I always thought it was mine, but when I turned 10, my mom said it wasn’t my yard, but I still think it’s mine. In 2019, in winter, my friend Yehor and I used to slide down the hill here until nightfall and learn tricks. We rolled down on round sleds. In 2022, a mortar landed here and destroyed a lot. I am very sorry for Yehor, he died in 2021."
+    }
+  },
+  {
+    "id": "043",
+    "year": 2023,
+    "image": "043.jpg",
+    "author": {
+      "original": "Кира",
+      "ua": "Кіра",
+      "en": "Kira"
+    },
+    "hometown": {
+      "original": "Бахмут",
+      "ua": "Бахмут",
+      "en": "Bakhmut (Donetsk Oblast)"
+    },
+    "current_city": {
+      "original": "Светловодск",
+      "ua": "Світловодськ",
+      "en": "Svitlovodsk (Kirovohrad Oblast)"
+    },
+    "tags": [],
+    "text": {
+      "original": "Это развлекательный центр «Победа». Здесь каждый второй из моих друзей праздновал день рождения. Я тоже праздновала свой раз 5-6. Мы сюда с подружкой ходили покупать сладости, в кино и в кафе. Ещё был тир, приставка и площадка с качелями, горками и «бабуин» — это купол с разными штуками, по которым можно лазать и висеть. У меня всегда мозоли от них были. А когда я выросла, все это стало для меня маленьким.",
+      "ua": "Це розважальний центр «Победа». Тут кожен другий із моїх друзів святкував день народження. Я теж святкувала свій раз п’ять-шість. Ми сюди з подружкою ходили купувати солодощі, у кіно та в кафе. Ще був тир, приставка та майданчик з гойдалками, гірками та «бабуїном» — це купол з різними штуками, по яких можна лазити та висіти. У мене завжди мозолі від них були. А коли я виросла, то все це стало для мене маленьким.",
+      "en": "This is the Pobeda mall. Every other one of my friends celebrated their birthday here. I also celebrated mine five or six times. My friend and I would come there to buy sweets, watch movies and go to cafes. There was also a shooting range, a game console, and a playground with swings, slides, and a “baboon” — a dome with different things you can climb and hang on. I always had blisters from them. And when I grew up, it all became small for me."
+    }
+  },
+  {
+    "id": "044",
+    "year": 2023,
+    "image": "044.jpg",
+    "author": {
+      "original": "Галя",
+      "ua": "Галя",
+      "en": "Halia"
+    },
+    "hometown": {
+      "original": "Бахмут",
+      "ua": "Бахмут",
+      "en": "Bakhmut (Donetsk Oblast)"
+    },
+    "current_city": {
+      "original": "Бровары",
+      "ua": "Бровари",
+      "en": "Brovary (Kyiv Oblast)"
+    },
+    "tags": [],
+    "text": {
+      "original": "Это дорожка возле проходной на завод АртВайнери, где производили шампанское. Я каждое утро и вечер гуляла там с собакой, слушала музыку в наушниках. Для меня это место силы, потому что я видела его в любых состояниях и временах года. И я там тоже появлялась в разных состояниях: и счастливая и грустная и даже плакала. Сейчас мне не хватает мест, где можно погрустить, чтобы не было людей, которые на тебя смотрят.",
+      "ua": "Це доріжка біля прохідної на завод АртВайнері, де робили шампанське. Я щоранку та ввечері гуляла там із собакою, слухала музику у навушниках. Для мене це місце сили, тому що я бачила його у будь-яких станах і порах року. І я там теж з’являлася в різних станах: і щаслива, і сумна, і навіть плакала. Зараз мені не вистачає місць, де можна посумувати, щоб не було людей, які на тебе дивляться.",
+      "en": "It’s a trail near the entrance to the ArtWinery factory where they made champagne. I used to walk there every morning and evening with my dog, listening to music on headphones. It’s a place of strength for me because I saw it in all kinds of states and seasons. And I also appeared there in different states: happy and sad and even crying. Now I miss places where I can be sad, where people aren’t looking at you."
+    }
+  },
+  {
+    "id": "045",
+    "year": 2023,
+    "image": "045.jpg",
+    "author": {
+      "original": "Таня Ц.",
+      "ua": "Таня Ц.",
+      "en": "Tania Ts."
+    },
+    "hometown": {
+      "original": "Бахмут",
+      "ua": null,
+      "en": "Bakhmut (Donetsk Oblast)"
+    },
+    "current_city": {
+      "original": "с. Грабовець (Івано-Франківська область)",
+      "ua": null,
+      "en": "Hrabovets (Ivano-Frankivsk Oblast)"
+    },
+    "tags": [],
+    "text": {
+      "original": "Коли я була маленька, ми з батьками ходили в парк на атракціони. В парку є «Колєсо обозрєнія», і я боялась цього колеса. В дорослому віці я приходила туди в 2021-му році з подругами. Парк був полузаброшений: осінь, жодної живої душі. Ми ледве дочекались людину, яка завєдовала «колєсом». Все скрипіло, але ми піднялись наверх. І тоді я зрозуміла, що не шкодую, тому що було гарно, атмосферно. Я так сжалась, прижала до себе рюкзак, думаю: «Аби звідси не впасти, аби воно все не завалилось».",
+      "ua": null,
+      "en": "When I was little, my parents and I used to go to the park for rides. There is a Ferris wheel in the park, and I was afraid of it. As an adult, I came there in 2021 with my friends. The park was half-abandoned: autumn, not a single living soul. We waited forever for the person who was in charge of the wheel. Everything was creaking, but we went upstairs. And then I realized that I had no regrets, because it was beautiful, atmospheric. I shrunk so much, hugged my backpack tightly, thinking: “I don’t want to fall from here, I don’t want it all to collapse.”"
+    }
+  },
+  {
+    "id": "046",
+    "year": 2023,
+    "image": "046.jpg",
+    "author": {
+      "original": "Максим",
+      "ua": "Максим",
+      "en": "Maksym"
+    },
+    "hometown": {
+      "original": "Доброполье",
+      "ua": "Добропілля",
+      "en": "Dobropillia (Donetsk Oblast)"
+    },
+    "current_city": {
+      "original": "Швейцария",
+      "ua": "Швейцарія",
+      "en": "Switzerland"
+    },
+    "tags": [],
+    "text": {
+      "original": "Это школа и заброшка через дорогу. Когда мы влезали в эту заброшку, внутри все очень сильно скрипело и было везде разбито стекло. Мы туда залезали через разбитое окно, а чтобы спуститься, нужно было прыгнуть вниз, при этом не держаться руками, потому что там острые камни. Внутри почти не было пола и было очень опасно, потому что мы боялись, что нас увидят взрослые.",
+      "ua": "Це школа і заброшка через дорогу. Коли ми залазили в цю заброшку, всередині все дуже сильно рипіло і було скрізь розбите скло. Ми туди залазили через розбите вікно, а щоб спуститися, треба було стрибнути вниз, при цьому не триматися руками, бо там гостре каміння. Всередині майже не було підлоги і було дуже небезпечно, бо ми боялися, що нас побачать дорослі.",
+      "en": "This is a school and an abandoned building across the street. When we climbed into this building, everything inside creaked a lot and there was broken glass everywhere. We climbed in through the broken window, and to get down we had to jump down without hold on with our hands because there were sharp rocks. There was almost no floor inside and it was very dangerous because we were afraid that adults would see us."
+    }
+  },
+  {
+    "id": "047",
+    "year": 2023,
+    "image": "047.jpg",
+    "author": {
+      "original": "Богдан",
+      "ua": "Богдан",
+      "en": "Bohdan"
+    },
+    "hometown": {
+      "original": "Доброполье",
+      "ua": "Добропілля",
+      "en": "Dobropillia (Donetsk Oblast)"
+    },
+    "current_city": {
+      "original": "Швейцария",
+      "ua": "Швейцарія",
+      "en": "Switzerland"
+    },
+    "tags": [],
+    "text": {
+      "original": "Это мой двор. Здесь мы играли в вампа, зомби, в «Cтоп-земля» — когда кто-то говорит: «Cтоп-земля», то ты должен быть где угодно, только не на земле. Ещё играли в «Cтоп-небо» — там нужно быть только на земле. Были колеса, закопанные в землю — мы использовали их как батуты. Стояло каштановое дерево, с которого падали каштаны и орехи… Хотя нет, каштаны только. Помню гараж, где был добрый дедушка, который чинил наши поломанные игрушки.",
+      "ua": "Це мій двір. Тут ми грали у вампа, зомбі, у «Стоп-земля» — коли хтось каже: «Стоп-земля», то ти маєш бути де завгодно, тільки не на землі. Ще грали у «Стоп-небо» — там треба бути лише на землі. Були колеса, закопані в землю, ми використовували їх як батути. Стояло каштанове дерево, з якого падали каштани та горіхи… Хоча ні, каштани тільки. Пам’ятаю гараж, де був добрий дідусь, який лагодив наші поламані іграшки.",
+      "en": "This is my backyard. Here we played vampire, zombie, “Stop-earth” — when someone says: “Stop-earth” you have to be anywhere but on the ground. We also played “Stop-sky” — where you only have to be only on the ground. There were wheels buried in the ground — we used them as trampolines. There was a chestnut tree from which chestnuts and other nuts fell… Actually, no, just chestnuts. I remember a garage where there was a kind old man who fixed our broken toys."
+    }
+  },
+  {
+    "id": "048",
+    "year": 2023,
+    "image": "048.jpg",
+    "author": {
+      "original": "Денис",
+      "ua": "Денис",
+      "en": "Denys"
+    },
+    "hometown": {
+      "original": "с. Врубовка",
+      "ua": "с. Врубівка",
+      "en": "Vrubivka (Luhansk Oblast)"
+    },
+    "current_city": {
+      "original": "Швейцария",
+      "ua": "Швейцарія",
+      "en": "Switzerland"
+    },
+    "tags": [],
+    "text": {
+      "original": "Я нарисовал учасников проекта «Олені Святого Миколая», які приїжджали к нам в село. Когда они напустили туман, то я бегал сзади всех и бил по спине. Они потом кричали «Кто это сделал?», а я там в углу стоял и смеялся. Потом когда они включили музыку, я ко всем подходил сзади и говорил им: «Шайлушай». Шайлушай — это маленький смурфик. Это происходило в клубе. Мне тогда подарили большой лего-набор и машину на пульте управления.",
+      "ua": "Я намалював учасників проекту «Олені Святого Миколая», які приїжджали до нас у село. Коли вони напустили туман, я бігав позаду всіх і бив по спині. Вони потім кричали: «Хто це зробив?», а я там у кутку стояв і сміявся. Потім, коли вони включили музику, я до всіх підходив ззаду і говорив їм «Шайлушай». Шайлушай — це маленький смурфик. Це відбувалося у клубі. Мені тоді подарували великий лего-набір та машину на пульті керування.",
+      "en": "I drew the charity project “Reindeer of St. Nicholas” that came to our village. When they put on the fog, I chased everyone and beat them on the back. They would then scream: “Who did that?” and I stood there in the corner laughing. Then, when they turned on the music, I would come up behind everyone and say “Shailushai” to them. Shailushai is a little smurf. It happened in a club. I was given a big Lego set and a remote control car."
+    }
+  },
+  {
+    "id": "049",
+    "year": 2023,
+    "image": "049.jpg",
+    "author": {
+      "original": "Костя",
+      "ua": "Костя",
+      "en": "Kostia"
+    },
+    "hometown": {
+      "original": "Запорожье",
+      "ua": "Запоріжжя",
+      "en": "Zaporizhzhia"
+    },
+    "current_city": {
+      "original": "Швейцария",
+      "ua": "Швейцарія",
+      "en": "Switzerland"
+    },
+    "tags": [],
+    "text": {
+      "original": "Я нарисовал лес, озеро, дерево поваленное, и как мы с семьёй ездили на пикник в лес за городом. У нас был мангал и бревна, а ещё уголь и плед с продуктами. Тут мы с братом играли в мяч и ловили рыбу. Восемь рыб наловили. В Швейцарии мы на пикники не ходим, только в Украине ездили.",
+      "ua": "Я намалював ліс, озеро, дерево повалене, і як ми з родиною їздили на пікнік у ліс за містом. В нас був мангал і дрова, а також вугілля та плед із продуктами. Тут ми з братом грали у м’яч та ловили рибу. Вісім риб наловили. У Швейцарії ми на пікніки не ходимо, лише в Україні їздили.",
+      "en": "I drew a forest, a lake, a fallen tree, and how we went on a picnic with my family to the woods outside of town. We had a barbecue and logs, and also charcoal and a blanket with food. That’s where my brother and I played ball and fished. We caught eight fishes. We don’t go on picnics in Switzerland like we used to in Ukraine."
+    }
+  },
+  {
+    "id": "050",
+    "year": 2023,
+    "image": "050.jpg",
+    "author": {
+      "original": "Ева",
+      "ua": "Єва",
+      "en": "Yeva"
+    },
+    "hometown": {
+      "original": "Сумы",
+      "ua": "Суми",
+      "en": "Sumy"
+    },
+    "current_city": {
+      "original": "Швейцария",
+      "ua": "Швейцарія",
+      "en": "Switzerland"
+    },
+    "tags": [],
+    "text": {
+      "original": "Вы знаете, что такое «Чешка»? Это такая большая полянка. Там сбоку лес и речка есть. Речка и полянка с лесом называются «Чешкой». Я ходила туда с бабушкой, но она боялась заходить в воду. Даже пальчиком боялась дотронуться. Такая: «Я буду на берегу!». Я там плавала со своим фламинго-кругом, а бабушка боялась. В Швейцарии есть город Биль и там река, которая напоминает мне «Чешку».",
+      "ua": "Ви знаєте, що таке «Чешка»? Це така велика галявина. Там збоку ліс та річка є. Річка та галявина з лісом називаються «Чешкою». Я ходила туди з бабусею, але вона боялася заходити у воду. Навіть пальчиком боялася торкнутися. Така: «Я буду на березі!». Я там плавала зі своїм надувним фламінго, а бабуся боялася. У Швейцарії є місто Біль і там річка, що нагадує мені «Чешку».",
+      "en": "Do you know what “Cheshka” is? It’s a big meadow. There’s a forest and a river on the side. The river and the meadow with the forest are called “Cheshka”. I used to go there with my grandma, but she was afraid to go in the water. She was afraid even to touch it with her finger. She was like, “I’ll be on the shore!” I swam there with my flamingo ring, but my grandma was afraid. In Switzerland, there is a town called Biel, and there is a river there that reminds me of “Cheshka”."
+    }
+  },
+  {
+    "id": "051",
+    "year": 2023,
+    "image": "051.jpg",
+    "author": {
+      "original": "Алиса",
+      "ua": "Аліса",
+      "en": "Alisa"
+    },
+    "hometown": {
+      "original": "Доброполье",
+      "ua": "Добропілля",
+      "en": "Dobropillia (Donetsk Oblast)"
+    },
+    "current_city": {
+      "original": "Швейцария",
+      "ua": "Швейцарія",
+      "en": "Switzerland"
+    },
+    "tags": [],
+    "text": {
+      "original": "Я нарисовала нашу «базу». Тут у нас были свои страны и города. Мы собирались на этом месте, брали палки и воевали против другой страны. На «базе» у каждого было своё место. Кто-то охранник, президент или защитник президента. Тут было много деревьев, кустов. Один раз мы украли из магазина картошку и пекли её на костре в кустах. Что сейчас с «базой» я не знаю. Наверное, ничего уже нет, все разобрали.",
+      "ua": "Я намалювала нашу «базу». Тут у нас були свої країни та міста. Ми збиралися на цьому місці, брали палиці та воювали проти іншої країни. На базі у кожного було своє місце. Хтось охоронець, президент чи захисник президента. Тут було багато дерев, кущів. Одного разу ми вкрали з крамниці картоплю і пекли її на багатті в кущах. Що зараз із «базою» я не знаю. Напевно, нічого вже немає, все розібрали.",
+      "en": "I drew our “base”. We had our own countries and cities here. We would meet at this place, take sticks and fight against another country. Everyone had their role at the “base”. Somebody was the guard, the president or the president’s protector. There were a lot of trees, bushes. Once we stole potatoes from the store and baked them on a fire in the bushes. I don’t know what happened to the “base” now. Probably nothing is there anymore, everything has been taken apart."
+    }
+  },
+  {
+    "id": "052",
+    "year": 2023,
+    "image": "052.jpg",
+    "author": {
+      "original": "Назар",
+      "ua": "Назар",
+      "en": "Nazar"
+    },
+    "hometown": {
+      "original": "Сумы",
+      "ua": "Суми",
+      "en": "Sumy"
+    },
+    "current_city": {
+      "original": "Швейцария",
+      "ua": "Швейцарія",
+      "en": "Switzerland"
+    },
+    "tags": [],
+    "text": {
+      "original": "Это центральная улица моего города Сумы — вид сверху. Она была украшена маленькими рисунками, а ещё тут были дома, деревья, балконы и лавочки. Мы тут часто гуляли с родителями, с бабушкой — на праздники сюда приходили.",
+      "ua": "Це центральна вулиця мого міста Суми — вид зверху. Вона прикрашена маленькими малюнками, а також тут були будинки, дерева, балкони та лавочки. Ми часто гуляли цією вулицею з батьками, з бабусею — на свята сюди приходили.",
+      "en": "This is the central street of my city of Sumy — the view from above. It was decorated with small drawings, and there were houses, trees, balconies and benches. We often walked here with my parents and grandmother — we came here on holidays."
+    }
+  },
+  {
+    "id": "053",
+    "year": 2023,
+    "image": "053.jpg",
+    "author": {
+      "original": "Роман",
+      "ua": "Роман",
+      "en": "Roman"
+    },
+    "hometown": {
+      "original": "Дніпро",
+      "ua": null,
+      "en": "Dnipro"
+    },
+    "current_city": {
+      "original": "Швейцарія",
+      "ua": null,
+      "en": "Switzerland"
+    },
+    "tags": [],
+    "text": {
+      "original": "Я намалював день, коли ми з сусідом попросилися сдєлать вечір, пожарить шашлик та покататься на квадріке. І я покатався з татом — в нього великий стокубовий квадрік, а в мене маленький бензиновий. Я ездил и всігда перекидался, а один раз губы разбил, потому что резко повернул руль и упал. А потом целый день не разговаривал и еще полгода не ездил на квадрике.",
+      "ua": null,
+      "en": "I drew a day when my neighbor and I asked to hang out for an evening, grill a barbecue, and ride a quad. And I went for a ride with my dad — he had a big one hundred cubic meter quad, and I had a small gasoline one. I was riding and always tipping over, and once I smashed my lips because I turned the steering wheel all the way and fell over. And then I didn’t talk for a whole day and didn’t ride a quad for another six months."
+    }
+  },
+  {
+    "id": "054",
+    "year": 2023,
+    "image": "054.jpg",
+    "author": {
+      "original": "Катя",
+      "ua": "Катя",
+      "en": "Katia"
+    },
+    "hometown": {
+      "original": "Запоріжжя",
+      "ua": null,
+      "en": "Zaporizhzhia"
+    },
+    "current_city": {
+      "original": "Запоріжжя",
+      "ua": null,
+      "en": "Zaporizhzhia"
+    },
+    "tags": [],
+    "text": {
+      "original": "Ми с друзями дуже часто приходимо на пляж і відпочиваємо разом, спілкуємося, співаємо і т.д. Тому це місце в мене найулюбленіше.",
+      "ua": null,
+      "en": "My friends and I often come to the beach and relax together, talking, singing, etc. That’s why this place is my favorite."
+    }
+  },
+  {
+    "id": "055",
+    "year": 2023,
+    "image": "055.jpg",
+    "author": {
+      "original": "Ріна",
+      "ua": "Ріна",
+      "en": "Rina"
+    },
+    "hometown": {
+      "original": "Торецьк",
+      "ua": null,
+      "en": "Toretsk (Donetsk Oblast)"
+    },
+    "current_city": {
+      "original": "с. Шепелівка (Полтавська область)",
+      "ua": null,
+      "en": "Shepelivka (Poltava Oblast)"
+    },
+    "tags": [],
+    "text": {
+      "original": "Це річка Клебан-Бик, на яку я доволі часто їздила з батьками. Тато любив ловити рибу і я йому допомагала. Також ми часто їздили з ночівлею. В один з таких разів я познайомилась з дівчинкою, яка протягом декількох років була моєю найліпшою подругою і під час спілкування з якою я змінилася в кращу сторону.",
+      "ua": null,
+      "en": "This is the Kleban-Byk River, which I used to go to quite often with my parents. My father liked to fish and I helped him. We also often spent the night there. During one of those times, I met a girl who was my best friend for several years and who helped me to change for the better."
+    }
+  },
+  {
+    "id": "056",
+    "year": 2024,
+    "image": "056.jpg",
+    "author": {
+      "original": "Маша",
+      "ua": "Маша",
+      "en": "Masha"
+    },
+    "hometown": {
+      "original": "Доброполье",
+      "ua": "Добропілля",
+      "en": "Dobropillia (Donetsk Oblast)"
+    },
+    "current_city": {
+      "original": "Доброполье",
+      "ua": "Добропілля",
+      "en": "Dobropillia (Donetsk Oblast)"
+    },
+    "tags": [],
+    "text": {
+      "original": "Как-то мы сидели во дворе и думали, чем заняться, и тут подруга прибежала и сказала: «Хей, привет! Я приложение скачала — давайте искать привидения?» Привидения бывают ультрастрашные (чёрные), страшные (синие) и средненькие (зелёные). Мы искали их в разных местах, но потом зашли в заброшенный детский садик и нашли три чёрных привидения, самых страшных! Испугались и побежали, а я потеряла в одной из комнат тапочек — золотой, весь в камешках. Потом мой старший друг согласился вернуться со мной за ним, и мы его нашли.",
+      "ua": "Якось ми сиділи на подвір’ї і думали, чим зайнятися, і тут подруга прибігла і сказала: «Хей, привіт! Я додаток скачала — давайте шукати привидів?» Привиди бувають ультрастрашними (чорні), страшними (сині) та середненькими (зелені). Ми шукали їх у різних місцях, але потім зайшли в закинутий дитячий садок і знайшли три чорні привиди, найстрашніші! Злякалися і побігли, а я втратила в одній із кімнат тапочок — золотий, весь у камінчиках. Потім мій старший друг погодився повернутися за ним, і ми його знайшли.",
+      "en": "One day we were sitting in the yard wondering what to do, and a friend came running in and said: “Hey, hi! I downloaded an app — let’s go ghost hunting, shall we?” Ghosts can be ultra scary (black), scary (blue), and medium scary (green). We looked for them in different places, but then we went into an abandoned kindergarten and found three black ghosts, the scariest ones! We got scared and ran, and I lost a slipper in one of the rooms — a golden one, all in pebbles. Then my oldest friend agreed to come back with me to get it, and we found it."
+    }
+  },
+  {
+    "id": "057",
+    "year": 2024,
+    "image": "057.jpg",
+    "author": {
+      "original": "Мира",
+      "ua": "Міра",
+      "en": "Mira"
+    },
+    "hometown": {
+      "original": "Краматорск",
+      "ua": "Краматорськ",
+      "en": "Kramatorsk (Donetsk Oblast)"
+    },
+    "current_city": {
+      "original": "Доброполье",
+      "ua": "Добропілля",
+      "en": "Dobropillia (Donetsk Oblast)"
+    },
+    "tags": [],
+    "text": {
+      "original": "Мы жили на втором этаже, и наш балкон выходил на задний двор. Там был участок, где женщина ухаживала за цветами, но потом забросила их, они завяли, и я спросила — можно ли мне посадить здесь арбуз? Она разрешила, и арбуз был первым, что я посадила в жизни. Я каждый день поливала его с балкона через щель, или мама сбрасывала мне бутылочки с водой, когда я гуляла. Нас на этом балконе с сестричками часто поливали водой летом, чтобы мы охладились. Арбуз не вырос, а сама я переехала в Доброполье и живу здесь со своей опекуншей.",
+      "ua": "Ми жили на другому поверсі, і наш балкон виходив на заднє подвір’я. Там була ділянка, де жінка саджала квіти, але потім закинула їх, вони зав’яли, і я запитала — чи можна мені посадити тут кавун? Вона дозволила, і кавун був першим, що я посадила у житті. Я щодня поливала його з балкона через щілину, або мама скидала мені пляшечки з водою, коли я гуляла. Нас на цьому балконі з сестричками часто поливали водою влітку, щоб ми охолонули. Кавун не виріс, а сама я переїхала в Добропілля і живу тут зі своєю опікункою.",
+      "en": "We lived on the second floor and our balcony faced the backyard. There was an area where a woman was caring for flowers, but then she abandoned them and they wilted, and I asked her — could I plant a watermelon here? She said yes, and it was the first watermelon I ever planted. I watered it every day from the balcony through a gap or my mom would throw water bottles down to me when I was out. My sisters and I were often sprinkled with water on that balcony in the summer to cool us down. The watermelon did not grow, and I moved to Dobropillia and live here with my guardian."
+    }
+  },
+  {
+    "id": "058",
+    "year": 2024,
+    "image": "058.jpg",
+    "author": {
+      "original": "Мария Бондарева",
+      "ua": "Марія Бондарєва",
+      "en": "Mariia Bondarieva"
+    },
+    "hometown": {
+      "original": "Доброполье",
+      "ua": "Добропілля",
+      "en": "Dobropillia (Donetsk Oblast)"
+    },
+    "current_city": {
+      "original": "Доброполье",
+      "ua": "Добропілля",
+      "en": "Dobropillia (Donetsk Oblast)"
+    },
+    "tags": [],
+    "text": {
+      "original": "Это история про друга, которого уже нет в живых. Его звали Лёша, он был старше меня на 4 года, всегда поддерживал и долгое время был моим единственным другом, так как в начальных классах сверстники меня часто обижали за плохие оценки и проблемы в семье. Он меня успокаивал, слушал и проводил со мной много времени. Мы часто любили гулять по балке — это было наше любимое место. Здесь мы каждый день катались на велосипедах или ходили пешком. Недавно Лёша умер, у него был рак лёгких, о котором он узнал слишком поздно.",
+      "ua": "Це історія про друга, якого вже немає в живих. Його звали Льоша, він був старший за мене на 4 роки, завжди підтримував і довгий час був моїм єдиним другом, тому що в початкових класах однолітки мене часто ображали за погані оцінки та проблеми в сім’ї. Він мене заспокоював, слухав і проводив зі мною багато часу. Ми часто любили гуляти балкою — це було наше улюблене місце. Тут ми щодня каталися на велосипедах чи ходили пішки. Нещодавно Льоша помер, у нього був рак легенів, про який він дізнався надто пізно.",
+      "en": "This is a story about a friend who is no longer alive. His name was Liosha, he was 4 years older than me, always supported me and for a long time was my only friend, because in elementary school I was often bullied by my peers for bad grades and family problems. He calmed me down, listened to me and spent a lot of time with me. We often liked to walk along the girder — it was our favorite place. Here we used to ride bicycles or walk every day. Recently Liosha died, he had lung cancer, which he found out about too late."
+    }
+  },
+  {
+    "id": "059",
+    "year": 2024,
+    "image": "059.jpg",
+    "author": {
+      "original": "Злата",
+      "ua": "Злата",
+      "en": "Zlata"
+    },
+    "hometown": {
+      "original": "Доброполье",
+      "ua": "Добропілля",
+      "en": "Dobropillia (Donetsk Oblast)"
+    },
+    "current_city": {
+      "original": "Доброполье",
+      "ua": "Добропілля",
+      "en": "Dobropillia (Donetsk Oblast)"
+    },
+    "tags": [],
+    "text": {
+      "original": "Это зоопарк, куда мы приехали на автобусе с одноклассниками. Тут были животные и тётенька, которая продаёт корм для них. А ещё кафе, где люди берут еду и садятся за столики, цветная плитка, по которой мы шли и смотрели на зверей. Здесь много животных: тигры, медведи, ламы, собачки, змеи, попугаи. Ещё я хотела нарисовать батуты и бассейн, где можно ловить рыбок и ложить в ведёрко, но мне не хватило места на листочке.",
+      "ua": "Це зоопарк, куди ми приїхали автобусом з однокласниками. Тут були тварини й тітонька, яка продає для них корм. А ще кафе, де люди беруть їжу та сідають за них, кольорова плитка, якою ми йшли і дивилися на звірів. Тут багато тварин: тигри, ведмеді, лами, собачки, змії, папуги. Ще я хотіла намалювати батути та басейн, де можна ловити рибок і класти у відерце, але мені не вистачило місця на листочку.",
+      "en": "This is the zoo where we came by bus with my classmates. There were animals and a lady who sells food for them. And also a cafe where people take food and sit at tables, colored tiles on which we walked and looked at the animals. There are lots of animals: tigers, bears, llamas, doggies, snakes, parrots. I also wanted to draw bouncy houses and a pool where you can catch fish and put them in a bucket, but I didn’t have enough space on the sheet."
+    }
+  },
+  {
+    "id": "060",
+    "year": 2024,
+    "image": "060.jpg",
+    "author": {
+      "original": "Влада",
+      "ua": "Влада",
+      "en": "Vlada"
+    },
+    "hometown": {
+      "original": "Доброполье",
+      "ua": "Добропілля",
+      "en": "Dobropillia (Donetsk Oblast)"
+    },
+    "current_city": {
+      "original": "Доброполье",
+      "ua": "Добропілля",
+      "en": "Dobropillia (Donetsk Oblast)"
+    },
+    "tags": [],
+    "text": {
+      "original": "Как-то мы ходили с друзьями на бугор возле шахты «Алмазная», и был дождь, очень скользко. И мой друг упал и весь вымазался, а вытереться было негде, только на шахте. Ну, мы туда и пошли. Думали, что нас выгонят, но этого не случилось: мы нашли воду, мой друг вытерся и все. А на рисунке террикон с разными холмами и переходами, куда мы ходим гулять в основном летом и иногда залезаем на него, хотя я не рискую. Однажды мой друг зимой полез наверх, упал оттуда и исцарапал себе всю руку.",
+      "ua": "Якось ми ходили з друзями на бугор біля шахти «Алмазна», і був дощ, дуже слизько. І мій друг упав і весь вимазався, а витертись було ніде, тільки на шахті. Ми туди і пішли. Думали, що нас виженуть, але цього не сталося: ми знайшли воду, мій друг витерся і все. А на малюнку терикон із різними пагорбами та переходами, куди ми ходимо гуляти в основному влітку та іноді залазимо на нього, хоча я не ризикую. Якось мій друг взимку поліз нагору, впав звідти і подряпав собі всю руку.",
+      "en": "Once we went with friends to a hill near the Almaznaya mine and it was raining, very slippery. And my friend fell down and got all dirty, and there was nowhere to clean up, only at the mine. So we went there. We thought that we would be kicked out, but it didn’t happen: we found water, my friend cleaned up and that was it. And on the picture there is a mine dump with different hills and passages, where we go for walks mostly in summer and sometimes climb on it, though I don’t risk it. Once my friend climbed up in winter, fell down from there and scratched his whole arm."
+    }
+  },
+  {
+    "id": "061",
+    "year": 2024,
+    "image": "061.jpg",
+    "author": {
+      "original": "София",
+      "ua": "Софія",
+      "en": "Sofiia"
+    },
+    "hometown": {
+      "original": "Доброполье",
+      "ua": "Добропілля",
+      "en": "Dobropillia (Donetsk Oblast)"
+    },
+    "current_city": {
+      "original": "Доброполье",
+      "ua": "Добропілля",
+      "en": "Dobropillia (Donetsk Oblast)"
+    },
+    "tags": [],
+    "text": {
+      "original": "Это центр города — Дом культуры, где проходят мероприятия на День города, на День шахтёра, поскольку у нас шахтёрский город. Здесь собиралось много людей, и даже приезжали знаменитости. Рядом было много ларьков с едой, чаями и большая разноцветная гирлянда. Здесь я гуляла с моей подругой на День Святого Николая. И именно в этот день мы подружились — это был один из лучших дней в моей жизни. Мы любовались ёлкой, слушали новогоднюю музыку, пили какао. Просидели там часа четыре, а потом началась метель, и мы разошлись по домам. Теперь она в Днепре, и я приезжаю к ней на каникулы.",
+      "ua": "Це центр міста — Будинок культури, де відбуваються заходи на День міста, на День шахтаря, оскільки в нас шахтарське місто. Тут збиралося багато людей, та навіть приїжджали знаменитості. Поруч було багато кіосків з їжею, чаєм і велика різнокольорова гірлянда. Тут я гуляла з моєю подругою на День Святого Миколая. І саме цього дня ми подружилися — це був один із найкращих днів у моєму житті. Ми милувалися ялинкою, слухали новорічну музику, пили какао. Просиділи там години чотири, а потім почалася хуртовина, і ми розійшлися по домівках. Тепер вона у Дніпрі, і я приїжджаю до неї на канікули.",
+      "en": "This is the center of the city — the House of Culture, where events take place on City Day and Miners' Day, since we are a mining town. Many people gathered here and even celebrities came. Nearby there were many stands with food, teas and a big colorful garland. This is where I walked with my friend on St. Nicholas Day. And it was on this day that we became friends — it was one of the best days of my life. We admired the Christmas tree, listened to New Year’s music, drank cocoa. We sat there for four hours, and then the snowstorm started, and we went home. Now she is in Dnipro, and I come to visit her on holidays."
+    }
+  },
+  {
+    "id": "062",
+    "year": 2024,
+    "image": "062.jpg",
+    "author": {
+      "original": "Дима Коробов",
+      "ua": "Дмитро Коробов",
+      "en": "Dmytro Korobov"
+    },
+    "hometown": {
+      "original": "Доброполье",
+      "ua": "Добропілля",
+      "en": "Dobropillia (Donetsk Oblast)"
+    },
+    "current_city": {
+      "original": "Доброполье",
+      "ua": "Добропілля",
+      "en": "Dobropillia (Donetsk Oblast)"
+    },
+    "tags": [],
+    "text": {
+      "original": "Это дача бабушки с дедушкой, куда мы ездим летом. Здесь мы утром в пять утра с дедом идём на рыбалку, берём снасти, рыбачим часа четыре и в девять возвращаемся с ведром рыбы через калитку, где нас встречают голодные кошки. А бабушка уже делает ленивые вареники со сгущёнкой. Потом целый день мы чем-то занимаемся на огороде или по хозяйству, слушаем музыку, или я качаюсь на качеле. Вечером на закате я отправляюсь на ставок, на мостик и ловлю связь возле воды — звоню лучшей подруге и рассказываю все новости за день. А когда солнце заходит, я смотрю на звезды.",
+      "ua": "Це дача бабусі з дідусем, куди ми їздимо влітку. Тут ми вранці о п’ятій ранку з дідом йдемо на риболовлю, беремо снасті, рибалимо години чотири і о дев’ятій повертаємося з відром риби через хвіртку, де нас зустрічають голодні кішки. А бабуся вже робить ліниві вареники зі згущеним молоком. Потім цілий день ми чимось займаємось на городі чи по господарству, слухаємо музику, або я гойдаюся на гойдалці. Увечері на заході сонця я вирушаю на ставок, на місток і ловлю зв’язок біля води — дзвоню найкращій подрузі і розповідаю всі новини за день. А коли сонце заходить, я дивлюсь на зірки.",
+      "en": "This is my grandparents' dacha, where we go in the summer. Here we go fishing in the morning at five in the morning with my grandpa, take our gear, fish for four hours and at nine come back with a bucket of fish through the gate, where hungry cats meet us. And grandma is already making lazy dumplings with condensed milk. Then all day long we do something in the garden or on the farm, listen to music, or I swing on the swing. In the evening at sunset I go to the pond, to the bridge where there is a good connection near the water — I call my best friend and tell all the news of the day. And when the sun goes down, I look up at the stars."
+    }
+  },
+  {
+    "id": "063",
+    "year": 2024,
+    "image": "063.jpg",
+    "author": {
+      "original": "Вика",
+      "ua": "Віка",
+      "en": "Vika"
+    },
+    "hometown": {
+      "original": "Доброполье",
+      "ua": "Добропілля",
+      "en": "Dobropillia (Donetsk Oblast)"
+    },
+    "current_city": {
+      "original": "Доброполье",
+      "ua": "Добропілля",
+      "en": "Dobropillia (Donetsk Oblast)"
+    },
+    "tags": [],
+    "text": {
+      "original": "Это большой городской парк в Доброполье, где мы встретились с моей близкой подругой Элиной. Тут высаживают клумбы с розами, есть лавочки и детская площадка. До этого с Элиной мы не виделись два года, она приехала всего на один день, мы пошли в этот парк и долго там гуляли. А потом подруга отправилась к нам на ночёвку. Она из-за войны живёт в Кременчуге, но сюда иногда приезжает.",
+      "ua": "Це великий міський парк у Добропіллі, де ми зустрілися з моєю близькою подругою Еліною. Тут висаджують клумби з трояндами, є лавочки та дитячий майданчик. До цього з Еліною ми не бачилися два роки, вона приїхала всього на один день, і ми пішли до цього парку та довго там гуляли. А потім подруга вирушила до нас на ночівлю. Вона через війну живе у Кременчуці, але сюди іноді приїжджає.",
+      "en": "This is a big city park in Dobropillya, where we met my close friend Elina. There are flowerbeds with roses, benches and a playground. Before that I haven’t seen Elina for two years, she came only for one day, we went to this park and walked there for a long time. And then my friend went to our place for a sleepover. She lives in Kremenchug because of the war, but she comes here sometimes."
+    }
+  },
+  {
+    "id": "064",
+    "year": 2024,
+    "image": "064.jpg",
+    "author": {
+      "original": "Милана",
+      "ua": "Мілана",
+      "en": "Milana"
+    },
+    "hometown": {
+      "original": "Доброполье",
+      "ua": "Добропілля",
+      "en": "Dobropillia (Donetsk Oblast)"
+    },
+    "current_city": {
+      "original": "Доброполье",
+      "ua": "Добропілля",
+      "en": "Dobropillia (Donetsk Oblast)"
+    },
+    "tags": [],
+    "text": {
+      "original": "Возле нашего дома много мест, куда мы с подругами летом выносим коврики, стелим их, берём карандаши, фломастеры и подушки, чтобы играть и рисовать. Обычно мы сидим под ёлочками возле нашей «базы», и к нам часто приходят бродячие собаки, которые живут возле мусорников. «База» — это такое место рядом с другими домами, школой и заброшкой. На «базе» мы дерёмся, мальчики постоянно приходят и забирают нашу «базу» и непонятно, чья она сейчас. Там мы со старшаками раньше играли в реальную жизнь: у нас был банк, косметика, президент, все жили там. Сейчас мы там не играем, можем только прийти на большое дерево влезть.",
+      "ua": "Біля нашого будинку є багато місць, куди ми з подругами влітку виносимо килимки, стелимо їх, беремо олівці, фломастери та подушки, щоб грати і малювати. Зазвичай ми сидимо під ялинками біля нашої бази, і до нас часто приходять бродячі собаки, які живуть біля смітників. «База» — це таке місце поряд з іншими будинками, школою та заброшкою. На «базі» ми б’ємося, хлопчики постійно приходять і забирають нашу «базу» і незрозуміло, чия вона зараз. Там ми зі старшаками раніше грали у реальне життя: у нас був банк, косметика, президент, всі жили там. Зараз ми там не граємо, можемо тільки прийти та влізти на велике дерево.",
+      "en": "There are many places near our house where my friends and I take mats out in the summer, lay them down, take pencils, markers and cushions to play and draw. We usually sit under the fir trees by our “base”, and stray dogs that live near the garbage cans often come to visit us. “Base” is a kind of place next to other houses, a school and an abandoned building. On the “base” we fight, boys constantly come and take our “base” and it is not clear whose it is now. There we used to play real life with the older kids: we had a bank, makeup, a president, everyone lived there. Now we don’t play there, we can only come to climb a big tree."
+    }
+  }
+]

@@ -1,0 +1,286 @@
+body {
+   margin: 0;
+   overflow-x: hidden;
+   font-family: sans-serif;
+   background: #ffffff;
+}
+
+/* стол */
+#table {
+   position: relative;
+   width: 100vw;
+   height: 100vh;
+   overflow: hidden;
+}
+
+/* открытка */
+.card {
+   position: absolute;
+   width: auto;
+   height: auto;
+   cursor: grab;
+   user-select: none;
+}
+
+.card img {
+   max-width: 402px;
+   max-height: 402px;
+   width: auto;
+   height: auto;
+   border: 1px solid rgb(236, 236, 236);
+   box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.1);
+}
+
+/* overlay */
+#overlay {
+   position: fixed;
+   inset: 0;
+   backdrop-filter: blur(8px);
+   background: rgba(255, 237, 200, 0.56);
+   z-index: 1000;
+   pointer-events: auto;
+}
+
+.hidden {
+   display: none !important;
+}
+
+#viewer {
+   position: fixed;
+   inset: 0;
+   overflow-y: auto;
+   padding: 40px 20px;
+   z-index: 1001;
+   pointer-events: auto;
+   text-align: center;
+}
+
+.viewer-content {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.viewer-content img {
+   max-width: 702px;
+   max-height: 702px;
+   display: block;
+   border-radius: 2px;
+   box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.1);
+}
+
+
+/* верхняя карточка */
+.img-wrapper {
+   margin-bottom: 10px;
+}
+
+.img-wrapper img {
+   max-width: 702px;
+   max-height: 702px;
+   width: auto;
+   height: auto;
+   display: block;
+   margin: 0 auto;
+}
+
+/* нижняя карточка */
+.back-wrapper {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+
+/* задняя сторона */
+.card-back {
+   font-family: Calibri;
+   display: block;
+   width: 100%;
+   max-width: 702px;
+   margin: 0 auto;
+   box-sizing: border-box;
+   background: #FEC669;
+   text-align: left;
+   padding: 30px 32px;
+   margin-top: 10px;
+   border-radius: 2px;
+   box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.1);
+}
+
+/* языки */
+.lang-switch {
+   margin-bottom: 10px;
+}
+
+.lang-switch button {
+   font-size: 17px;
+   font-style: italic;
+   margin-right: 2px;
+   padding-block: 2px 1px;
+   padding-inline: 10px;
+   background-color: #FEC669;
+   color: #F3805C;
+   border-color: #F3805C;
+   border-radius: 8px;
+   border-style: solid;
+   border-width: 1px;
+}
+
+.lang-switch button:hover {
+   background-color: #F3805C;
+   color: #FEC669;
+}
+
+.lang-switch button:disabled {
+   opacity: 0.3;
+   background-color: #FEC669;
+   color: #F3805C;
+   border-color: #F3805C;
+}
+
+
+.lang-switch button.active {
+   background-color: #F3805C;
+   color: #FEC669;
+}
+
+.back-inner {
+   display: flex;
+   justify-content: space-between;
+   gap: 20px;
+}
+
+/* ЛЕВАЯ ЧАСТЬ */
+.back-left {
+   flex: 1;
+   text-align: left;
+}
+
+.story {
+   margin: 10px 0;
+   font-size: 18px;
+   line-height: 1.2;
+}
+
+.author {
+   font-style: italic;
+}
+
+/* ПРАВАЯ ЧАСТЬ */
+.back-right {
+   color: #F3805C;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   text-align: right;
+   min-width: 120px;
+   flex-shrink: 0;
+}
+
+/* город сверху */
+.city {
+   font-size: 28px;
+   font-weight: bold;
+   line-height: 1.1;
+}
+
+.city-name {
+   font-size: inherit;
+   font-weight: inherit;
+}
+
+.city-region {
+   font-size: 18px;
+   font-weight: normal;
+}
+
+/* блок снизу */
+.meta {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+   gap: 0px;
+}
+
+.id {
+   font-size: 64px;
+   font-weight: bold;
+   line-height: 1;
+}
+
+.year {
+   font-size: 24px;
+   line-height: 1;
+}
+
+
+@media (max-width: 768px) {
+
+   .img-wrapper img {
+      width: 100%;
+      height: auto;
+      max-width: 100%;
+   }
+
+   /*размер открыток на столе*/
+   .card img {
+      max-width: 60vw;
+      max-height: 60vw;
+   }
+
+   /* уменьшаем типографику */
+   .city {
+      text-align: left;
+      font-size: 24px;
+      line-height: 1.1;
+   }
+
+   .city-region {
+      font-size: 14px;
+   }
+
+   .id {
+      font-size: 46px;
+      line-height: 1;
+   }
+
+   .year {
+      font-size: 18px;
+      line-height: 1;
+   }
+
+   .story {
+      font-size: 17px;
+   }
+
+   /* перестраиваем низ */
+   .back-inner {
+      display: flex;
+      flex-direction: column;
+      gap: 0px;
+   }
+
+   .back-left {
+      order: 1;
+   }
+
+   .back-right {
+      order: 2;
+
+      /* ключевая часть */
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-end;
+
+      width: 100%;
+      margin-top: 0px;
+   }
+
+   /* чтобы блок с номером был справа */
+   .meta {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 2px;
+   }
+}
