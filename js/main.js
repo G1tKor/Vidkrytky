@@ -5,6 +5,8 @@ let postcards = [];
 let currentLang = 'original';
 let zIndex = 1;
 
+let activeCard = null;
+
 // загрузка JSON
 fetch('data/postcards.json')
    .then(res => res.json())
@@ -35,7 +37,12 @@ function createCard(data) {
    // случайная позиция
    div.style.top = Math.random() * 70 + '%';
    div.style.left = Math.random() * 70 + '%';
-   div.style.transform = `rotate(${Math.random() * 60 - 30}deg)`;
+
+
+   const angle = Math.random() * 60 - 30;
+
+   div.style.transform = `rotate(${angle}deg)`;
+   div.dataset.rotation = angle;
 
    enableInteraction(div, data);
 
@@ -44,19 +51,22 @@ function createCard(data) {
 
 // drag // клик / открытие
 function enableInteraction(el, data) {
-   let isDragging = false;
-   let moved = false;
-   let startX = 0;
-   let startY = 0;
+   let isDragging = false;    // сейчас тащим
+   let moved = false;      // было ли движение (чтобы отличить клик)
+   let startX = 0;      // точка начала drag
+   let startY = 0;      // точка начала drag
 
-   let isRotating = false;
-   let startAngle = 0;
-   let currentRotation = 0;
+   let isRotating = false;    // сейчас крутим
+   let startAngle = 0;     // угол между пальцами в начале rotate
+   let currentRotation = parseFloat(el.dataset.rotation) || 0;    // текущий угол карточки
 
-   function getPos(e) {
+   let wasRotating = false;      // был ли rotate (чтобы не открыть карточку)
+   let rotationBase = 0;      // угол до нового вращения
+
+   function getPos(e) {    // получить позицию (мышь / тач)
       if (e.touches) {
          return {
-            x: e.touches[0].clientX,
+            x: e.touches[0].clientX,     // мышь: clientX/Y, тач: touches[0]
             y: e.touches[0].clientY
          };
       }
@@ -66,35 +76,41 @@ function enableInteraction(el, data) {
       };
    }
 
-   function getAngle(touch1, touch2) {
+   function getAngle(touch1, touch2) {    // Считает угол между двумя пальцами
       const dx = touch2.clientX - touch1.clientX;
       const dy = touch2.clientY - touch1.clientY;
       return Math.atan2(dy, dx) * (180 / Math.PI);
    }
 
-   function onMove(e) {
-      if (e.touches && e.touches.length === 2 && !isRotating) {
+   function onMove(e) {    // обработка движения: drag и rotate
+
+      if (e.touches && e.touches.length === 2 && !isRotating) {   // вход в rotate, два пальца
          isDragging = false;
          isRotating = true;
+
+         wasRotating = true;
+         moved = false; // ВАЖНО
+
+         rotationBase = currentRotation;
 
          startAngle = getAngle(e.touches[0], e.touches[1]);
       }
 
       if (!isDragging && !isRotating) return;
 
-      // 👉 сначала вращение
-      if (isRotating && e.touches && e.touches.length === 2) {
+      if (isRotating && e.touches && e.touches.length === 2) {    // уже вращаем и всё ещё 2 пальца на экране
          e.preventDefault();
 
          const angle = getAngle(e.touches[0], e.touches[1]);
          const delta = angle - startAngle;
 
-         el.style.transform = `rotate(${currentRotation + delta}deg)`;
+         currentRotation = rotationBase + delta;
+         el.style.transform = `rotate(${currentRotation}deg)`;
 
          return;
       }
 
-      // 👉 потом drag
+      // потом drag
       if (e.touches) e.preventDefault();
 
       const pos = getPos(e);
@@ -113,16 +129,27 @@ function enableInteraction(el, data) {
       }
    }
 
-   function onUp() {
-      if (isRotating) {
-         const style = window.getComputedStyle(el);
-         const matrix = new DOMMatrix(style.transform);
 
-         const angle = Math.atan2(matrix.b, matrix.a) * (180 / Math.PI);
-         currentRotation = angle;
+   function onUp(e) {      // завершение жеста (или клика)
+
+      // если это touch и остался 1 палец — продолжаем drag
+      if (e.touches && e.touches.length === 1) {
+         isRotating = false;
+         isDragging = true;
+
+         const pos = {
+            x: e.touches[0].clientX,
+            y: e.touches[0].clientY
+         };
+
+         startX = pos.x;
+         startY = pos.y;
+
+         return; // НЕ завершаем взаимодействие
       }
 
       isDragging = false;
+      isRotating = false;
 
       document.removeEventListener('mousemove', onMove);
       document.removeEventListener('mouseup', onUp);
@@ -130,14 +157,20 @@ function enableInteraction(el, data) {
       document.removeEventListener('touchmove', onMove);
       document.removeEventListener('touchend', onUp);
 
-      // 👉 если не двигали — открыть
-      if (!moved) {
+      if (!moved && !wasRotating) {
          openCard(el, data);
       }
+
+      wasRotating = false;
+
+      activeCard = null;   // освобождаем activeCard
    }
 
-   el.addEventListener('mousedown', e => {
-      e.preventDefault(); // 🔥 важно
+   el.addEventListener('mousedown', e => {      // старт drag (мышь)
+      if (activeCard && activeCard !== el) return;    // захват карточки
+      activeCard = el;
+
+      e.preventDefault();
 
       isDragging = true;
       moved = false;
@@ -151,11 +184,13 @@ function enableInteraction(el, data) {
       document.addEventListener('mouseup', onUp);
    });
 
-   el.addEventListener('touchstart', e => {
+   el.addEventListener('touchstart', e => {     // старт drag / rotate (тач)
+      if (activeCard && activeCard !== el) return;  // захват карточки
+      activeCard = el;
+
       e.preventDefault();
 
-      if (e.touches.length === 1) {
-         // обычный drag
+      if (e.touches.length === 1) {    // обычный drag (1 палец)
          const pos = getPos(e);
 
          isDragging = true;
@@ -165,11 +200,13 @@ function enableInteraction(el, data) {
          startX = pos.x;
          startY = pos.y;
 
-      } else if (e.touches.length === 2) {
-         // вращение
+      } else if (e.touches.length === 2) {   // вращение (2 пальца)
          isDragging = false;
          isRotating = true;
 
+         wasRotating = true;
+
+         rotationBase = currentRotation;
          startAngle = getAngle(e.touches[0], e.touches[1]);
       }
 
