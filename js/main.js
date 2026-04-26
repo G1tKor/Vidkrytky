@@ -38,8 +38,8 @@ function createCard(data) {
    div.style.top = Math.random() * 70 + '%';
    div.style.left = Math.random() * 70 + '%';
 
-
-   const angle = Math.random() * 60 - 30;
+   const maxAngle = 42;    // угол случайного поворота
+   const angle = Math.random() * (2 * maxAngle) - maxAngle;
 
    div.style.transform = `rotate(${angle}deg)`;
    div.dataset.rotation = angle;
