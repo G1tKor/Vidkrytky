@@ -36,10 +36,19 @@ body {
    position: fixed;
    inset: 0;
    backdrop-filter: blur(8px);
-   background: rgba(255, 237, 200, 0.56);
    z-index: 1000;
    pointer-events: auto;
+   background: rgba(256, 256, 256, 0.5);
 }
+
+/* цвета размытого фона при открытой открытке
+#overlay.theme-even {
+   background: rgba(200, 220, 255, 0.5);
+}
+
+#overlay.theme-odd {
+   background: rgba(255, 237, 200, 0.56);
+}*/
 
 .hidden {
    display: none !important;
@@ -91,6 +100,16 @@ body {
    justify-content: center;
 }
 
+.theme-even {
+   --bg: #BDEEF2;
+   --accent: #30929A;
+   --text: #30929A;
+   --button-bg: #BDEEF2;
+   --button-text: #30929A;
+   --button-active-bg: #30929A;
+   --button-active-text: #BDEEF2;
+}
+
 /* задняя сторона */
 .card-back {
    font-family: Calibri;
@@ -99,7 +118,7 @@ body {
    max-width: 702px;
    margin: 0 auto;
    box-sizing: border-box;
-   background: #FEC669;
+   background: var(--bg, #FFE589);
    text-align: left;
    padding: 30px 32px;
    margin-top: 10px;
@@ -117,6 +136,7 @@ body {
 
 .lang-buttons {
    display: flex;
+   padding: 8px 0px;
 }
 
 .lang-buttons button {
@@ -125,42 +145,44 @@ body {
    margin-right: 2px;
    padding-block: 2px 1px;
    padding-inline: 10px;
-   background-color: #FEC669;
-   color: #F3805C;
-   border-color: #F3805C;
+
+   background-color: var(--button-bg, #FFE589);
+   color: var(--button-text, #E67436);
+   border-color: var(--button-text, #E67436);
+
    border-radius: 8px;
    border-style: solid;
    border-width: 1px;
 }
 
 .lang-buttons button:hover {
-   background-color: #F3805C;
-   color: #FEC669;
+   background-color: var(--button-active-bg, #E67436);
+   color: var(--button-active-text, #FFE589);
 }
 
 .lang-buttons button:disabled {
    opacity: 0.3;
-   background-color: #FEC669;
-   color: #F3805C;
-   border-color: #F3805C;
+   background-color: var(--button-bg, #FFE589);
+   color: var(--button-text, #E67436);
+   border-color: var(--button-text, #E67436);
 }
 
 
 .lang-buttons button.active {
-   background-color: #F3805C;
-   color: #FEC669;
+   background-color: var(--button-active-bg, #E67436);
+   color: var(--button-active-text, #FFE589);
 }
 
 .close-btn {
    display: none;
-   font-size: 20px;
+   font-size: 28px;
    font-weight: bold;
    background: none;
    border: none;
    cursor: pointer;
-   color: #F3805C;
+   color: var(--accent, #E67436);
    line-height: 1;
-   padding: 8px 14px;
+   padding: 6px 2px 6px 12px;
    /* дефолт: 4px 8px;*/
 }
 
@@ -192,7 +214,7 @@ body {
 
 /* ПРАВАЯ ЧАСТЬ */
 .back-right {
-   color: #F3805C;
+   color: var(--accent, #E67436);
    display: flex;
    flex-direction: column;
    justify-content: space-between;

@@ -221,8 +221,13 @@ function enableInteraction(el, data) {
 const viewer = document.getElementById('viewer');
 
 function openCard(el, data) {
+   // const isEven = Number(data.id) % 2 === 0;
+
    overlay.classList.remove('hidden');
    viewer.classList.remove('hidden');
+
+   // overlay.classList.remove('theme-even', 'theme-odd'); // цвет размытия фона 
+   // overlay.classList.add(isEven ? 'theme-even' : 'theme-odd');
 
    viewer.scrollTop = 0;      // сброс скролла при открытии
 
@@ -251,6 +256,7 @@ function openCard(el, data) {
    viewer.appendChild(container);
 
    // 👉 закрытие по клику вне карточки
+   viewer.onclick = null; // сброс
    viewer.onclick = (e) => {
       const clickedImage = e.target.closest('.img-wrapper');
       const clickedBack = e.target.closest('.card-back');
@@ -372,6 +378,10 @@ function createBack(data) {
    });
 
    updateContent();
+
+   // определяем четность открытки
+   const isEven = Number(data.id) % 2 === 0;
+   div.classList.add(isEven ? 'theme-even' : 'theme-odd');
 
    return div;
 }
