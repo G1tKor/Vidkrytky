@@ -110,9 +110,16 @@ body {
 /* языки */
 .lang-switch {
    margin-bottom: 10px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
 }
 
-.lang-switch button {
+.lang-buttons {
+   display: flex;
+}
+
+.lang-buttons button {
    font-size: 17px;
    font-style: italic;
    margin-right: 2px;
@@ -126,12 +133,12 @@ body {
    border-width: 1px;
 }
 
-.lang-switch button:hover {
+.lang-buttons button:hover {
    background-color: #F3805C;
    color: #FEC669;
 }
 
-.lang-switch button:disabled {
+.lang-buttons button:disabled {
    opacity: 0.3;
    background-color: #FEC669;
    color: #F3805C;
@@ -139,9 +146,26 @@ body {
 }
 
 
-.lang-switch button.active {
+.lang-buttons button.active {
    background-color: #F3805C;
    color: #FEC669;
+}
+
+.close-btn {
+   display: none;
+   font-size: 20px;
+   font-weight: bold;
+   background: none;
+   border: none;
+   cursor: pointer;
+   color: #F3805C;
+   line-height: 1;
+   padding: 8px 14px;
+   /* дефолт: 4px 8px;*/
+}
+
+.close-btn:hover {
+   opacity: 0.7;
 }
 
 .back-inner {
@@ -220,6 +244,10 @@ body {
       width: 100%;
       height: auto;
       max-width: 100%;
+   }
+
+   .close-btn {
+      display: block;
    }
 
    /*размер открыток на столе*/

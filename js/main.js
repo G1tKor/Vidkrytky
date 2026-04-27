@@ -255,8 +255,6 @@ function openCard(el, data) {
       const clickedImage = e.target.closest('.img-wrapper');
       const clickedBack = e.target.closest('.card-back');
 
-      viewer.scrollTop = 0;      // сброс скролла при закрытии
-
       if (!clickedImage && !clickedBack) {
          closeViewer();
       }
@@ -269,13 +267,6 @@ function closeViewer() {
    viewer.innerHTML = '';
 }
 
-// закрытие
-function closeCard(el, back) {
-   overlay.classList.add('hidden');
-   el.classList.remove('opened');
-   el.removeChild(back);
-}
-
 // задняя сторона
 function createBack(data) {
    const div = document.createElement('div');
@@ -286,9 +277,13 @@ function createBack(data) {
 
          <div class="back-left">
             <div class="lang-switch">
-               <button data-lang="original">Original</button>
-               <button data-lang="ua">UA</button>
-               <button data-lang="en">ENG</button>
+               <div class="lang-buttons">
+                   <button data-lang="original">Original</button>
+                  <button data-lang="ua">UA</button>
+                  <button data-lang="en">ENG</button>
+               </div>
+
+               <button class="close-btn">✕</button>
             </div>
 
             <div class="story"></div>
@@ -313,7 +308,12 @@ function createBack(data) {
    const idEl = div.querySelector('.id');
    const yearEl = div.querySelector('.year');
 
-   const buttons = div.querySelectorAll('.lang-switch button'); // ПЕРЕНЕСЛИ ВВЕРХ
+   const langbuttons = div.querySelectorAll('.lang-buttons button');
+
+   const closeBtn = div.querySelector('.close-btn');
+   closeBtn.onclick = () => {
+      closeViewer();
+   };
 
    function getSafeLang(data, lang) {
       if (data.text[lang]) return lang;
@@ -348,7 +348,7 @@ function createBack(data) {
       yearEl.textContent = data.year;
 
       // ПОДСВЕТКА ТУТ
-      buttons.forEach(btn => {
+      langbuttons.forEach(btn => {
          btn.classList.remove('active');
 
          if (btn.dataset.lang === safeLang) {
@@ -358,7 +358,7 @@ function createBack(data) {
    }
 
    // отключаем недоступные языки
-   buttons.forEach(btn => {
+   langbuttons.forEach(btn => {
       const lang = btn.dataset.lang;
 
       if (!data.text[lang]) {
