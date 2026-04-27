@@ -1,11 +1,14 @@
 const table = document.getElementById('table');
 const overlay = document.getElementById('overlay');
+const viewer = document.getElementById('viewer');
 
 let postcards = [];
 let currentLang = 'original';
 let zIndex = 1;
 
 let activeCard = null;
+
+createRandomizeButton();
 
 // загрузка JSON
 fetch('data/postcards.json')
@@ -16,14 +19,65 @@ fetch('data/postcards.json')
    });
 
 // случайные открытки
+
 function renderCards() {
-   const shuffled = postcards.sort(() => 0.5 - Math.random()).slice(0, 10);
+   const shuffled = [...postcards]
+      .sort(() => 0.5 - Math.random())
+      .slice(0, 10);
 
    shuffled.forEach(cardData => {
       const card = createCard(cardData);
       table.appendChild(card);
    });
 }
+
+function randomizeCards() {
+   table.innerHTML = '';
+   renderCards();
+}
+
+function createRandomizeButton() {
+   const btn = document.createElement('button');
+   btn.id = 'randomizeBtn';
+   btn.innerHTML = `
+   <svg width="41" height="41" viewBox="0 0 41 41">
+      <path d="M16.0049 5.94477L20.0872 10.0271M25.5301 2V7.77283M35.0552 5.94477L30.9729 10.0271M39 15.4699H33.2272M35.0552 24.9951L30.9729 20.9128M25.5301 28.9399V23.167M16.0049 24.9951L20.0872 20.9128M12.0601 15.4699H17.833M25.1317 15.8683L2 39" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+   </svg>
+   <span>RANDOMIZE</span>
+`;
+
+   btn.onclick = () => {
+      if (!viewer.classList.contains('hidden')) return;
+      randomizeCards();
+   };
+
+   btn.addEventListener('touchstart', () => {
+      btn.classList.add('is-pressed');
+   });
+
+   btn.addEventListener('touchend', () => {
+      btn.classList.remove('is-pressed');
+   });
+
+   btn.addEventListener('touchcancel', () => {
+      btn.classList.remove('is-pressed');
+   });
+
+   btn.addEventListener('mousedown', () => {
+      btn.classList.add('is-pressed');
+   });
+
+   btn.addEventListener('mouseup', () => {
+      btn.classList.remove('is-pressed');
+   });
+
+   btn.addEventListener('mouseleave', () => {
+      btn.classList.remove('is-pressed');
+   });
+
+   document.body.appendChild(btn);
+}
+
 
 // создание карточки
 function createCard(data) {
@@ -48,6 +102,120 @@ function createCard(data) {
 
    return div;
 }
+
+// задняя сторона
+function createBack(data) {
+   const div = document.createElement('div');
+   div.className = 'card-back';
+
+   div.innerHTML = `
+      <div class="back-inner">
+
+         <div class="back-left">
+            <div class="lang-switch">
+               <div class="lang-buttons">
+                   <button data-lang="original">Original</button>
+                  <button data-lang="ua">UA</button>
+                  <button data-lang="en">ENG</button>
+               </div>
+
+               <button class="close-btn">✕</button>
+            </div>
+
+            <div class="story"></div>
+            <div class="author"></div>
+         </div>
+
+         <div class="back-right">
+            <div class="city"></div>
+
+            <div class="meta">
+               <div class="id"></div>
+               <div class="year"></div>
+            </div>
+         </div>
+
+      </div>
+   `;
+
+   const storyEl = div.querySelector('.story');
+   const authorEl = div.querySelector('.author');
+   const cityEl = div.querySelector('.city');
+   const idEl = div.querySelector('.id');
+   const yearEl = div.querySelector('.year');
+
+   const langButtons = div.querySelectorAll('.lang-buttons button');
+
+   const closeBtn = div.querySelector('.close-btn');
+   closeBtn.onclick = () => {
+      closeViewer();
+   };
+
+   function getSafeLang(data, lang) {
+      if (data.text[lang]) return lang;
+      return 'original';
+   }
+
+   function updateContent() {
+      const safeLang = getSafeLang(data, currentLang);
+
+      storyEl.textContent = data.text[safeLang] || '';
+      authorEl.textContent = data.author[safeLang] || '';
+
+
+      const fullCity = data.hometown[safeLang] || '';
+
+      const match = fullCity.match(/^(.*?)\s*\((.*?)\)$/);
+
+      if (match) {
+         const name = match[1];
+         const region = match[2];
+
+         cityEl.innerHTML = `
+      <div class="city-name">${name}</div>
+      <div class="city-region">(${region})</div>
+   `;
+      } else {
+         cityEl.textContent = fullCity;
+      }
+
+
+      idEl.textContent = data.id;
+      yearEl.textContent = data.year;
+
+      // ПОДСВЕТКА ТУТ
+      langButtons.forEach(btn => {
+         btn.classList.remove('active');
+
+         if (btn.dataset.lang === safeLang) {
+            btn.classList.add('active');
+         }
+      });
+   }
+
+   // отключаем недоступные языки
+   langButtons.forEach(btn => {
+      const lang = btn.dataset.lang;
+
+      if (!data.text[lang]) {
+         btn.disabled = true;
+      }
+
+      btn.onclick = () => {
+         currentLang = lang;
+         updateContent();
+      };
+   });
+
+   updateContent();
+
+   // определяем четность открытки
+   const isEven = Number(data.id) % 2 === 0;
+   div.classList.add(isEven ? 'theme-even' : 'theme-odd');
+
+   return div;
+}
+
 
 // drag // клик / открытие
 function enableInteraction(el, data) {
@@ -218,8 +386,6 @@ function enableInteraction(el, data) {
 }
 
 // открытие
-const viewer = document.getElementById('viewer');
-
 function openCard(el, data) {
    // const isEven = Number(data.id) % 2 === 0;
 
@@ -273,115 +439,3 @@ function closeViewer() {
    viewer.innerHTML = '';
 }
 
-// задняя сторона
-function createBack(data) {
-   const div = document.createElement('div');
-   div.className = 'card-back';
-
-   div.innerHTML = `
-      <div class="back-inner">
-
-         <div class="back-left">
-            <div class="lang-switch">
-               <div class="lang-buttons">
-                   <button data-lang="original">Original</button>
-                  <button data-lang="ua">UA</button>
-                  <button data-lang="en">ENG</button>
-               </div>
-
-               <button class="close-btn">✕</button>
-            </div>
-
-            <div class="story"></div>
-            <div class="author"></div>
-         </div>
-
-         <div class="back-right">
-            <div class="city"></div>
-
-            <div class="meta">
-               <div class="id"></div>
-               <div class="year"></div>
-            </div>
-         </div>
-
-      </div>
-   `;
-
-   const storyEl = div.querySelector('.story');
-   const authorEl = div.querySelector('.author');
-   const cityEl = div.querySelector('.city');
-   const idEl = div.querySelector('.id');
-   const yearEl = div.querySelector('.year');
-
-   const langbuttons = div.querySelectorAll('.lang-buttons button');
-
-   const closeBtn = div.querySelector('.close-btn');
-   closeBtn.onclick = () => {
-      closeViewer();
-   };
-
-   function getSafeLang(data, lang) {
-      if (data.text[lang]) return lang;
-      return 'original';
-   }
-
-   function updateContent() {
-      const safeLang = getSafeLang(data, currentLang);
-
-      storyEl.textContent = data.text[safeLang] || '';
-      authorEl.textContent = data.author[safeLang] || '';
-
-
-      const fullCity = data.hometown[safeLang] || '';
-
-      const match = fullCity.match(/^(.*?)\s*\((.*?)\)$/);
-
-      if (match) {
-         const name = match[1];
-         const region = match[2];
-
-         cityEl.innerHTML = `
-      <div class="city-name">${name}</div>
-      <div class="city-region">(${region})</div>
-   `;
-      } else {
-         cityEl.textContent = fullCity;
-      }
-
-
-      idEl.textContent = data.id;
-      yearEl.textContent = data.year;
-
-      // ПОДСВЕТКА ТУТ
-      langbuttons.forEach(btn => {
-         btn.classList.remove('active');
-
-         if (btn.dataset.lang === safeLang) {
-            btn.classList.add('active');
-         }
-      });
-   }
-
-   // отключаем недоступные языки
-   langbuttons.forEach(btn => {
-      const lang = btn.dataset.lang;
-
-      if (!data.text[lang]) {
-         btn.disabled = true;
-      }
-
-      btn.onclick = () => {
-         currentLang = lang;
-         updateContent();
-      };
-   });
-
-   updateContent();
-
-   // определяем четность открытки
-   const isEven = Number(data.id) % 2 === 0;
-   div.classList.add(isEven ? 'theme-even' : 'theme-odd');
-
-   return div;
-}

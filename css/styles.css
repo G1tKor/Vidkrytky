@@ -78,6 +78,54 @@ body {
    box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.1);
 }
 
+#randomizeBtn {
+   position: fixed;
+   bottom: 20px;
+   left: 50%;
+   transform: translateX(-50%);
+
+   z-index: 999;
+
+   padding: 8px 22px 9px 20px;
+   border-radius: 20px;
+
+   font-family: calibri;
+   font-size: 30px;
+   font-weight: bold;
+   letter-spacing: 0px;
+
+   display: flex;
+   align-items: center;
+   gap: 10px;
+
+   cursor: pointer;
+
+   background-color: #FFE589;
+   color: #E67436;
+   border: 3px solid #E67436;
+
+   transition: background-color 0.2s ease, color 0.2s ease, transform 0.1s ease;
+
+   -webkit-tap-highlight-color: transparent;
+   tap-highlight-color: transparent;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+   touch-action: manipulation;
+}
+
+#randomizeBtn.is-pressed {
+   transform: translateX(-50%) scale(0.95);
+   background-color: #E67436;
+   color: #FFE589;
+}
+
+
+#randomizeBtn svg {
+   width: 34px;
+   height: 34px;
+}
+
 
 /* верхняя карточка */
 .img-wrapper {
@@ -259,6 +307,13 @@ body {
    line-height: 1;
 }
 
+
+@media (hover: hover) {
+   #randomizeBtn:hover {
+      background-color: #E67436;
+      color: #FFE589;
+   }
+}
 
 @media (max-width: 768px) {
 
