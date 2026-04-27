@@ -107,7 +107,6 @@ body {
    transition: background-color 0.2s ease, color 0.2s ease, transform 0.1s ease;
 
    -webkit-tap-highlight-color: transparent;
-   tap-highlight-color: transparent;
    -webkit-user-select: none;
    -ms-user-select: none;
    user-select: none;
