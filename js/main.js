@@ -84,7 +84,7 @@ function enableInteraction(el, data) {
 
    function onMove(e) {    // обработка движения: drag и rotate
 
-      if (e.touches && e.touches.length === 2 && !isRotating) {   // вход в rotate, два пальца
+      if (e.touches && e.touches.length === 2 && !isRotating) {   // вход в rotate, два пальца обнаружены
          isDragging = false;
          isRotating = true;
 
@@ -224,6 +224,8 @@ function openCard(el, data) {
    overlay.classList.remove('hidden');
    viewer.classList.remove('hidden');
 
+   viewer.scrollTop = 0;      // сброс скролла при открытии
+
    viewer.innerHTML = '';
 
    const container = document.createElement('div');
@@ -252,6 +254,8 @@ function openCard(el, data) {
    viewer.onclick = (e) => {
       const clickedImage = e.target.closest('.img-wrapper');
       const clickedBack = e.target.closest('.card-back');
+
+      viewer.scrollTop = 0;      // сброс скролла при закрытии
 
       if (!clickedImage && !clickedBack) {
          closeViewer();
