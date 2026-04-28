@@ -26,7 +26,7 @@ body {
 
 .card-exit {
    /*transform: translate(-120vw, 120vh) rotate(var(--rot));*/
-   transform: translate(-120vw, 120vh) rotate(0deg) !important;
+   transform: translate(-120vw) rotate(0deg) !important;
    opacity: 0;
 }
 
