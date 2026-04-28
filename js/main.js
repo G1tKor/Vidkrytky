@@ -31,10 +31,7 @@ function renderCards() {
    });
 }
 
-function randomizeCards() {
-   table.innerHTML = '';
-   renderCards();
-}
+
 
 function createRandomizeButton() {
    const btn = document.createElement('button');
@@ -98,10 +95,29 @@ function createCard(data) {
    div.style.transform = `rotate(${angle}deg)`;
    div.dataset.rotation = angle;
 
+   div.style.setProperty('--rot', `${angle}deg`);
+
    enableInteraction(div, data);
 
    return div;
 }
+
+function randomizeCards() {
+   const cards = document.querySelectorAll('.card');
+
+   cards.forEach(card => {
+      // форсим текущий layout
+      card.getBoundingClientRect();
+
+      card.classList.add('card-exit');
+   });
+
+   setTimeout(() => {
+      table.innerHTML = '';
+      renderCards();
+   }, 500);
+}
+
 
 // задняя сторона
 function createBack(data) {
@@ -273,7 +289,7 @@ function enableInteraction(el, data) {
          const delta = angle - startAngle;
 
          currentRotation = rotationBase + delta;
-         el.style.transform = `rotate(${currentRotation}deg)`;
+         el.style.setProperty('--rot', `${currentRotation}deg`);
 
          return;
       }
@@ -421,7 +437,7 @@ function openCard(el, data) {
 
    viewer.appendChild(container);
 
-   // 👉 закрытие по клику вне карточки
+   // закрытие по клику вне карточки
    viewer.onclick = null; // сброс
    viewer.onclick = (e) => {
       const clickedImage = e.target.closest('.img-wrapper');
