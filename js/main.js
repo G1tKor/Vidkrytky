@@ -115,7 +115,7 @@ function randomizeCards() {
    setTimeout(() => {
       table.innerHTML = '';
       renderCards();
-   }, 500);
+   }, 500);  // задержка исчезновения открыток
 }
 
 
