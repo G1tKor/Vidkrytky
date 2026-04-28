@@ -25,9 +25,25 @@ function renderCards() {
       .sort(() => 0.5 - Math.random())
       .slice(0, 10);
 
-   shuffled.forEach(cardData => {
+   shuffled.forEach((cardData, index) => {
       const card = createCard(cardData);
+
       table.appendChild(card);
+
+      card.classList.add('animating'); // вкл transition
+
+      const delay = Math.random() * 150 + index * 40;
+
+      setTimeout(() => {
+         requestAnimationFrame(() => {
+            card.style.setProperty('--y', '0px');
+            card.style.setProperty('--x', '0px');
+         });
+      }, delay);
+
+      setTimeout(() => {
+         card.classList.remove('animating');
+      }, delay + 600); // 600 = длительность transition
    });
 }
 
@@ -92,10 +108,15 @@ function createCard(data) {
    const maxAngle = 42;    // угол случайного поворота
    const angle = Math.random() * (2 * maxAngle) - maxAngle;
 
-   div.style.transform = `rotate(${angle}deg)`;
+
    div.dataset.rotation = angle;
 
+   const offsetX = (Math.random() - 0.5) * 200; // от -100px до +100px
+
+   div.style.setProperty('--x', `${offsetX}px`);
+   div.style.setProperty('--y', '120vh');
    div.style.setProperty('--rot', `${angle}deg`);
+
 
    enableInteraction(div, data);
 
@@ -105,17 +126,22 @@ function createCard(data) {
 function randomizeCards() {
    const cards = document.querySelectorAll('.card');
 
-   cards.forEach(card => {
-      // форсим текущий layout
-      card.getBoundingClientRect();
+   cards.forEach((card, index) => {
+      const delay = Math.random() * 150 + index * 40;
 
-      card.classList.add('card-exit');
+      setTimeout(() => {
+         card.classList.add('animating'); // вкл transition
+
+         card.style.setProperty('--x', '0vw');
+         card.style.setProperty('--y', '120vh'); // вниз
+         card.style.opacity = '0';
+      }, delay);
    });
 
    setTimeout(() => {
       table.innerHTML = '';
       renderCards();
-   }, 500);  // задержка исчезновения открыток
+   }, 800); // время смахивания старых открыток
 }
 
 
