@@ -5,6 +5,14 @@ body {
    background: #ffffff;
 }
 
+body.ui-busy .ui-button {
+   pointer-events: none;
+}
+
+body.ui-busy .card {
+   pointer-events: none;
+}
+
 /* стол */
 #table {
    position: relative;
@@ -21,6 +29,12 @@ body {
    cursor: grab;
    user-select: none;
    transform: translate(var(--x), var(--y)) rotate(var(--rot));
+   cursor: grab;
+}
+
+.card.is-dragging {
+   cursor: grabbing;
+   transform: translate(var(--x), var(--y)) rotate(var(--rot)) scale(1.03);
 }
 
 .card-exit {
@@ -38,6 +52,7 @@ body {
 
 .card.animating {
    transition: transform 0.6s ease, opacity 0.6s ease;
+   /*0,6 - ANIMATION_DURATION = 600*/
 }
 
 /* overlay */

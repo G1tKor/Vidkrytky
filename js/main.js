@@ -7,6 +7,9 @@ let currentLang = 'original';
 let zIndex = 1;
 
 let activeCard = null;
+let isAnimating = false;
+
+const ANIMATION_DURATION = 600;
 
 createRandomizeButton();
 
@@ -18,12 +21,36 @@ fetch('data/postcards.json')
       renderCards();
    });
 
-// случайные открытки
+// универсальная проверка на активную открытку
+function isUIBusy(ignoreActive = false) {
+   if (ignoreActive) {
+      return isAnimating;
+   }
+   return isAnimating || activeCard !== null;
+}
 
+function setUIBusy(state) {
+   if (state) {
+      document.body.classList.add('ui-busy');
+   } else {
+      document.body.classList.remove('ui-busy');
+   }
+}
+
+// случайные открытки
 function renderCards() {
    const shuffled = [...postcards]
       .sort(() => 0.5 - Math.random())
       .slice(0, 10);
+
+   let remaining = shuffled.length;
+
+   setTimeout(() => {   // fail-safe таймер
+      if (remaining > 0) {
+         isAnimating = false;
+         setUIBusy(false);
+      }
+   }, ANIMATION_DURATION + 400); // чуть больше, чем длительность анимации
 
    shuffled.forEach((cardData, index) => {
       const card = createCard(cardData);
@@ -41,9 +68,19 @@ function renderCards() {
          });
       }, delay);
 
-      setTimeout(() => {
-         card.classList.remove('animating');
-      }, delay + 600); // 600 = длительность transition
+      card.addEventListener('transitionend', (e) => {
+         if (e.propertyName !== 'transform') return;
+
+         card.classList.remove('animating'); // выкл transition
+
+         remaining--;
+
+         if (remaining === 0) {
+            isAnimating = false;
+            setUIBusy(false);
+         }
+
+      }, { once: true });
    });
 }
 
@@ -52,15 +89,17 @@ function renderCards() {
 function createRandomizeButton() {
    const btn = document.createElement('button');
    btn.id = 'randomizeBtn';
+   btn.classList.add('ui-button');
    btn.innerHTML = `
    <svg width="41" height="41" viewBox="0 0 41 41">
       <path d="M16.0049 5.94477L20.0872 10.0271M25.5301 2V7.77283M35.0552 5.94477L30.9729 10.0271M39 15.4699H33.2272M35.0552 24.9951L30.9729 20.9128M25.5301 28.9399V23.167M16.0049 24.9951L20.0872 20.9128M12.0601 15.4699H17.833M25.1317 15.8683L2 39" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
    </svg>
-   <span>RANDOMIZE</span>
+   <span>VIDKRYTKY</span>
 `;
 
    btn.onclick = () => {
       if (!viewer.classList.contains('hidden')) return;
+      if (isUIBusy()) return;
       randomizeCards();
    };
 
@@ -124,6 +163,11 @@ function createCard(data) {
 }
 
 function randomizeCards() {
+   if (isAnimating) return;
+   isAnimating = true;
+
+   setUIBusy(true);
+
    const cards = document.querySelectorAll('.card');
 
    cards.forEach((card, index) => {
@@ -141,7 +185,7 @@ function randomizeCards() {
    setTimeout(() => {
       table.innerHTML = '';
       renderCards();
-   }, 800); // время смахивания старых открыток
+   }, ANIMATION_DURATION + 200); // время смахивания старых открыток
 }
 
 
@@ -374,11 +418,19 @@ function enableInteraction(el, data) {
       wasRotating = false;
 
       activeCard = null;   // освобождаем activeCard
+
+      el.classList.remove('is-dragging');
+
+      setUIBusy(false);
    }
 
    el.addEventListener('mousedown', e => {      // старт drag (мышь)
       if (activeCard && activeCard !== el) return;    // захват карточки
       activeCard = el;
+
+      el.classList.add('is-dragging');
+
+      setUIBusy(true);
 
       e.preventDefault();
 
@@ -397,6 +449,10 @@ function enableInteraction(el, data) {
    el.addEventListener('touchstart', e => {     // старт drag / rotate (тач)
       if (activeCard && activeCard !== el) return;  // захват карточки
       activeCard = el;
+
+      el.classList.add('is-dragging');
+
+      setUIBusy(true);
 
       e.preventDefault();
 
@@ -429,13 +485,10 @@ function enableInteraction(el, data) {
 
 // открытие
 function openCard(el, data) {
-   // const isEven = Number(data.id) % 2 === 0;
+   if (isUIBusy(true)) return;
 
    overlay.classList.remove('hidden');
    viewer.classList.remove('hidden');
-
-   // overlay.classList.remove('theme-even', 'theme-odd'); // цвет размытия фона 
-   // overlay.classList.add(isEven ? 'theme-even' : 'theme-odd');
 
    viewer.scrollTop = 0;      // сброс скролла при открытии
 
