@@ -13,6 +13,10 @@ body.ui-busy .card {
    pointer-events: none;
 }
 
+body.dragging {
+   cursor: grabbing;
+}
+
 /* стол */
 #table {
    position: relative;
@@ -32,8 +36,8 @@ body.ui-busy .card {
    cursor: grab;
 }
 
+
 .card.is-dragging {
-   cursor: grabbing;
    transform: translate(var(--x), var(--y)) rotate(var(--rot)) scale(1.03);
 }
 

@@ -420,6 +420,7 @@ function enableInteraction(el, data) {
       activeCard = null;   // освобождаем activeCard
 
       el.classList.remove('is-dragging');
+      document.body.classList.remove('dragging');
 
       setUIBusy(false);
    }
@@ -429,6 +430,7 @@ function enableInteraction(el, data) {
       activeCard = el;
 
       el.classList.add('is-dragging');
+      document.body.classList.add('dragging');
 
       setUIBusy(true);
 
@@ -451,6 +453,7 @@ function enableInteraction(el, data) {
       activeCard = el;
 
       el.classList.add('is-dragging');
+      document.body.classList.add('dragging');
 
       setUIBusy(true);
 
