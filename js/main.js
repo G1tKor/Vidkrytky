@@ -8,6 +8,7 @@ let zIndex = 1;
 
 let activeCard = null;
 let isAnimating = false;
+let isInteracting = false;
 
 const ANIMATION_DURATION = 600;
 
@@ -21,21 +22,24 @@ fetch('data/postcards.json')
       renderCards();
    });
 
+// задержка перед стартом анимации каждой карточки
+function getStaggerDelay(index) {
+   return Math.random() * 150 + index * 40;
+}
+
 // универсальная проверка на активную открытку
-function isUIBusy(ignoreActive = false) {
-   if (ignoreActive) {
-      return isAnimating;
-   }
-   return isAnimating || activeCard !== null;
+function isAnimatingNow() {
+   return isAnimating;
+}
+
+function isInteractingNow() {
+   return isInteracting;
 }
 
 function setUIBusy(state) {
-   if (state) {
-      document.body.classList.add('ui-busy');
-   } else {
-      document.body.classList.remove('ui-busy');
-   }
+   document.body.classList.toggle('ui-busy', state);
 }
+
 
 // случайные открытки
 function renderCards() {
@@ -45,11 +49,13 @@ function renderCards() {
 
    let remaining = shuffled.length;
 
-   setTimeout(() => {   // fail-safe таймер
-      if (remaining > 0) {
-         isAnimating = false;
-         setUIBusy(false);
-      }
+   if (remaining === 0) {
+      setUIBusy(false);
+      return;
+   }
+
+   const failSafe = setTimeout(() => {
+      setUIBusy(false);
    }, ANIMATION_DURATION + 400); // чуть больше, чем длительность анимации
 
    shuffled.forEach((cardData, index) => {
@@ -59,29 +65,29 @@ function renderCards() {
 
       card.classList.add('animating'); // вкл transition
 
-      const delay = Math.random() * 150 + index * 40;
+      const delay = getStaggerDelay(index);
 
       setTimeout(() => {
          card.style.setProperty('--y', '0px');
          card.style.setProperty('--x', '0px');
       }, delay);
 
-      let finished = false;
+      const handler = (e) => {
+         if (e.propertyName !== 'transform') return;
 
-      card.addEventListener('transitionend', (e) => {
-         if (e.propertyName !== 'transform' || finished) return;
-
-         finished = true;
+         card.removeEventListener('transitionend', handler);
 
          card.classList.remove('animating');
 
          remaining--;
 
          if (remaining === 0) {
-            isAnimating = false;
+            clearTimeout(failSafe);
             setUIBusy(false);
          }
-      });
+      };
+
+      card.addEventListener('transitionend', handler);
    });
 }
 
@@ -100,7 +106,7 @@ function createRandomizeButton() {
 
    btn.onclick = () => {
       if (!viewer.classList.contains('hidden')) return;
-      if (isUIBusy()) return;
+      if (isAnimatingNow() || isInteractingNow()) return;
       randomizeCards();
    };
 
@@ -162,15 +168,14 @@ function createCard(data) {
 }
 
 function randomizeCards() {
-   if (isAnimating) return;
-   isAnimating = true;
+   if (isAnimatingNow() || isInteractingNow()) return;
 
    setUIBusy(true);
 
-   const cards = document.querySelectorAll('.card');
+   const cards = table.querySelectorAll('.card');
 
    cards.forEach((card, index) => {
-      const delay = Math.random() * 150 + index * 40;
+      const delay = getStaggerDelay(index);
 
       setTimeout(() => {
          card.classList.add('animating'); // вкл transition
@@ -335,6 +340,19 @@ function enableInteraction(el, data) {
       return Math.atan2(dy, dx) * (180 / Math.PI);
    }
 
+   function startInteraction(el) {
+      activeCard = el;
+
+      isInteracting = true;
+
+      el.classList.add('is-dragging');
+      document.body.classList.add('dragging');
+
+      setUIBusy(true);
+
+      el.style.zIndex = ++zIndex;
+   }
+
    function onMove(e) {    // обработка движения: drag и rotate
 
       if (e.touches && e.touches.length === 2 && !isRotating) {   // вход в rotate, два пальца обнаружены
@@ -407,7 +425,7 @@ function enableInteraction(el, data) {
       document.removeEventListener('mousemove', onMove);
       document.removeEventListener('mouseup', onUp);
 
-      document.removeEventListener('touchmove', onMove);
+      document.removeEventListener('touchmove', onMove, { passive: false });
       document.removeEventListener('touchend', onUp);
 
       if (!moved && !wasRotating) {
@@ -417,6 +435,7 @@ function enableInteraction(el, data) {
       wasRotating = false;
 
       activeCard = null;   // освобождаем activeCard
+      isInteracting = false;
 
       el.classList.remove('is-dragging');
       document.body.classList.remove('dragging');
@@ -425,23 +444,18 @@ function enableInteraction(el, data) {
    }
 
    el.addEventListener('mousedown', e => {      // старт drag (мышь)
-      if (activeCard && activeCard !== el) return;    // захват карточки
-      activeCard = el;
-
-      el.classList.add('is-dragging');
-      document.body.classList.add('dragging');
-
-      setUIBusy(true);
+      if (activeCard && activeCard !== el) return;
 
       e.preventDefault();
 
+      startInteraction(el);
+
       isDragging = true;
+      isRotating = false;
       moved = false;
 
       startX = e.clientX;
       startY = e.clientY;
-
-      el.style.zIndex = ++zIndex;
 
       document.addEventListener('mousemove', onMove);
       document.addEventListener('mouseup', onUp);
@@ -449,17 +463,14 @@ function enableInteraction(el, data) {
 
    el.addEventListener('touchstart', e => {     // старт drag / rotate (тач)
       if (activeCard && activeCard !== el) return;  // захват карточки
-      activeCard = el;
-
-      el.classList.add('is-dragging');
-      document.body.classList.add('dragging');
-
-      setUIBusy(true);
 
       e.preventDefault();
 
+      startInteraction(el);
+
       if (e.touches.length === 1) {    // обычный drag (1 палец)
          const pos = getPos(e);
+         e.preventDefault();
 
          isDragging = true;
          isRotating = false;
@@ -469,6 +480,8 @@ function enableInteraction(el, data) {
          startY = pos.y;
 
       } else if (e.touches.length === 2) {   // вращение (2 пальца)
+         e.preventDefault();
+
          isDragging = false;
          isRotating = true;
 
@@ -478,8 +491,6 @@ function enableInteraction(el, data) {
          startAngle = getAngle(e.touches[0], e.touches[1]);
       }
 
-      el.style.zIndex = ++zIndex;
-
       document.addEventListener('touchmove', onMove, { passive: false });
       document.addEventListener('touchend', onUp);
    });
@@ -487,7 +498,7 @@ function enableInteraction(el, data) {
 
 // открытие
 function openCard(el, data) {
-   if (isUIBusy(true)) return;
+   if (isAnimatingNow()) return;
 
    overlay.classList.remove('hidden');
    viewer.classList.remove('hidden');
@@ -519,7 +530,6 @@ function openCard(el, data) {
    viewer.appendChild(container);
 
    // закрытие по клику вне карточки
-   viewer.onclick = null; // сброс
    viewer.onclick = (e) => {
       const clickedImage = e.target.closest('.img-wrapper');
       const clickedBack = e.target.closest('.card-back');

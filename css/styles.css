@@ -13,6 +13,10 @@ body.ui-busy .card {
    pointer-events: none;
 }
 
+body.ui-busy .card.is-dragging {
+   pointer-events: auto;
+}
+
 body.dragging {
    cursor: grabbing;
 }
@@ -32,17 +36,13 @@ body.dragging {
    height: auto;
    cursor: grab;
    user-select: none;
-   transform: translate(var(--x), var(--y)) rotate(var(--rot));
-   cursor: grab;
-}
 
+   transform: translate(var(--x), var(--y)) rotate(var(--rot));
+   will-change: transform;
+}
 
 .card.is-dragging {
    transform: translate(var(--x), var(--y)) rotate(var(--rot)) scale(1.03);
-}
-
-.card-exit {
-   opacity: 50;
 }
 
 .card img {
@@ -52,6 +52,10 @@ body.dragging {
    height: auto;
    border: 1px solid rgb(236, 236, 236);
    box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.1);
+
+   pointer-events: none;
+   user-drag: none;
+   -webkit-user-drag: none;
 }
 
 .card.animating {
@@ -66,17 +70,8 @@ body.dragging {
    backdrop-filter: blur(8px);
    z-index: 1000;
    pointer-events: auto;
-   background: rgba(256, 256, 256, 0.5);
+   background: rgba(255, 255, 255, 0.5);
 }
-
-/* цвета размытого фона при открытой открытке
-#overlay.theme-even {
-   background: rgba(200, 220, 255, 0.5);
-}
-
-#overlay.theme-odd {
-   background: rgba(255, 237, 200, 0.56);
-}*/
 
 .hidden {
    display: none !important;
@@ -259,7 +254,6 @@ body.dragging {
    color: var(--accent, #E67436);
    line-height: 1;
    padding: 6px 2px 6px 12px;
-   /* дефолт: 4px 8px;*/
 }
 
 .close-btn:hover {
