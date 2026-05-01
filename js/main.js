@@ -62,16 +62,18 @@ function renderCards() {
       const delay = Math.random() * 150 + index * 40;
 
       setTimeout(() => {
-         requestAnimationFrame(() => {
-            card.style.setProperty('--y', '0px');
-            card.style.setProperty('--x', '0px');
-         });
+         card.style.setProperty('--y', '0px');
+         card.style.setProperty('--x', '0px');
       }, delay);
 
-      card.addEventListener('transitionend', (e) => {
-         if (e.propertyName !== 'transform') return;
+      let finished = false;
 
-         card.classList.remove('animating'); // выкл transition
+      card.addEventListener('transitionend', (e) => {
+         if (e.propertyName !== 'transform' || finished) return;
+
+         finished = true;
+
+         card.classList.remove('animating');
 
          remaining--;
 
@@ -79,8 +81,7 @@ function renderCards() {
             isAnimating = false;
             setUIBusy(false);
          }
-
-      }, { once: true });
+      });
    });
 }
 
@@ -147,7 +148,6 @@ function createCard(data) {
    const maxAngle = 42;    // угол случайного поворота
    const angle = Math.random() * (2 * maxAngle) - maxAngle;
 
-
    div.dataset.rotation = angle;
 
    const offsetX = (Math.random() - 0.5) * 200; // от -100px до +100px
@@ -155,7 +155,6 @@ function createCard(data) {
    div.style.setProperty('--x', `${offsetX}px`);
    div.style.setProperty('--y', '120vh');
    div.style.setProperty('--rot', `${angle}deg`);
-
 
    enableInteraction(div, data);
 
