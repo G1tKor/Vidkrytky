@@ -1,11 +1,12 @@
 body {
    margin: 0;
    overflow-x: hidden;
-   font-family: sans-serif;
+   font-family: calibri;
    background: #ffffff;
 }
 
-body.ui-busy .ui-button {
+body.ui-busy .ui-button,
+body.ui-busy .top-menu {
    pointer-events: none;
 }
 
@@ -27,6 +28,68 @@ body.dragging {
    width: 100vw;
    height: 100vh;
    overflow: hidden;
+}
+
+.top-menu {
+   --bg: #ffffff;
+   --text: #30929A;
+   --active-bg: #30929A;
+   --active-text: #BDEEF2;
+   position: fixed;
+   top: 20px;
+   left: 50%;
+   transform: translateX(-50%);
+
+   display: flex;
+   gap: 6px;
+
+   z-index: 999;
+}
+
+.top-menu button {
+   font-family: calibri;
+   font-size: 22px;
+   font-style: italic;
+
+   padding: 0px 12px 1px 12px;
+
+   border-radius: 8px;
+   border: 1px solid var(--text);
+
+   background-color: var(--bg);
+   color: var(--text);
+
+   cursor: pointer;
+
+   transition: background-color 0.2s ease, color 0.2s ease, transform 0.1s ease;
+}
+
+.top-menu button[data-section="about"] {
+   --text: #30929A;
+   --active-bg: #30929A;
+   --active-text: #BDEEF2;
+}
+
+.top-menu button[data-section="trips"] {
+   --text: #7D9B41;
+   --active-bg: #7D9B41;
+   --active-text: #D1E4A2;
+}
+
+.top-menu button[data-section="support"] {
+   --text: #E67436;
+   --active-bg: #E67436;
+   --active-text: #FFE589;
+}
+
+.top-menu button:hover {
+   background-color: var(--active-bg);
+   color: var(--active-text);
+}
+
+.top-menu button.active {
+   background-color: var(--active-bg);
+   color: var(--active-text);
 }
 
 /* открытка */
@@ -213,7 +276,7 @@ body.dragging {
 .lang-buttons button {
    font-size: 17px;
    font-style: italic;
-   margin-right: 2px;
+   margin-right: 5px;
    padding-block: 2px 1px;
    padding-inline: 10px;
 
