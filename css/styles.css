@@ -346,15 +346,15 @@ body.dragging {
    }
 
    #randomizeBtn {
-      padding: 5px 16px 7px 14px;
+      padding: 5px 16px 7px 15px;
       font-size: 24px;
       gap: 6px;
       border-radius: 12px;
    }
 
    #randomizeBtn svg {
-      width: 24px;
-      height: 24px;
+      width: 26px;
+      height: 25px;
    }
 
    .close-btn {
